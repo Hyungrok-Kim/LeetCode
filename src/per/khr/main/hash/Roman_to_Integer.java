@@ -1,5 +1,6 @@
 package per.khr.main.hash;
 
+import javax.xml.stream.events.Characters;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -8,7 +9,7 @@ import java.util.Map;
 public class Roman_to_Integer {
 
     public static void main(String[] args) {
-        String s = "III";
+        String s = "MCMXCIV";
         HashMap<String, Integer> oneWordHs = new HashMap<>();
         oneWordHs.put("I", 1);
         oneWordHs.put("V", 5);
@@ -20,38 +21,9 @@ public class Roman_to_Integer {
 
         int answer = 0;
         for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == 'I' || s.charAt(i) == 'X' || s.charAt(i) == 'C') {
-                if (i != s.length() - 1) {
-                    if (s.charAt(i) == 'I' && s.charAt(i + 1) == 'V') {
-                        answer += 4;
-                        i++;
-                        continue;
-                    } else if (s.charAt(i) == 'I' && s.charAt(i + 1) == 'X') {
-                        answer += 9;
-                        i++;
-                        continue;
-                    } else if (s.charAt(i) == 'X' && s.charAt(i + 1) == 'L') {
-                        answer += 40;
-                        i++;
-                        continue;
-                    } else if (s.charAt(i) == 'X' && s.charAt(i + 1) == 'C') {
-                        answer += 90;
-                        i++;
-                        continue;
-                    } else if (s.charAt(i) == 'C' && s.charAt(i + 1) == 'D') {
-                        answer += 400;
-                        i++;
-                        continue;
-                    } else if (s.charAt(i) == 'C' && s.charAt(i + 1) == 'M') {
-                        answer += 900;
-                        i++;
-                        continue;
-                    } else {
-                        answer += oneWordHs.get(Character.toString(s.charAt(i)));
-                    }
-                } else {
-                    answer += oneWordHs.get(Character.toString(s.charAt(i)));
-                }
+            if(i + 1 != s.length() && oneWordHs.get(Character.toString(s.charAt(i))) < oneWordHs.get(Character.toString(s.charAt(i + 1)))) {
+                answer += (oneWordHs.get(Character.toString(s.charAt(i + 1))) - oneWordHs.get(Character.toString(s.charAt(i))));
+                i++;
             } else {
                 answer += oneWordHs.get(Character.toString(s.charAt(i)));
             }
