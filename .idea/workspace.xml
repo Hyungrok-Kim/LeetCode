@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/khr/main/hash/Two_Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/per/khr/main/hash/Roman_to_Integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/khr/main/hash/Roman_to_Integer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Roman_to_Integer">
+  <component name="RunManager" selected="Application.Two_Sum">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="per.khr.Main" />
       <module name="LeetCode" />
@@ -55,12 +54,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Two_Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="per.khr.main.hash.Two_Sum" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="per.khr.main.hash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Roman_to_Integer" />
+      <item itemvalue="Application.Two_Sum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Two_Sum" />
         <item itemvalue="Application.Roman_to_Integer" />
       </list>
     </recent_temporary>
@@ -91,45 +105,45 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="258" key="GridCell.Tab.0.bottom" timestamp="1653309630659">
+    <state width="1493" height="82" key="GridCell.Tab.0.bottom" timestamp="1653392501588">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653309630659" />
-    <state width="1493" height="258" key="GridCell.Tab.0.center" timestamp="1653309630659">
+    <state width="1493" height="82" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653392501588" />
+    <state width="1493" height="82" key="GridCell.Tab.0.center" timestamp="1653392501588">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653309630659" />
-    <state width="1493" height="258" key="GridCell.Tab.0.left" timestamp="1653309630659">
+    <state width="1493" height="82" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653392501587" />
+    <state width="1493" height="82" key="GridCell.Tab.0.left" timestamp="1653392501587">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653309630659" />
-    <state width="1493" height="258" key="GridCell.Tab.0.right" timestamp="1653309630659">
+    <state width="1493" height="82" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653392501587" />
+    <state width="1493" height="82" key="GridCell.Tab.0.right" timestamp="1653392501588">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653309630659" />
-    <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1653309630846">
+    <state width="1493" height="82" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653392501588" />
+    <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1653309718169">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653309630846" />
-    <state width="1493" height="258" key="GridCell.Tab.1.center" timestamp="1653309630846">
+    <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653309718169" />
+    <state width="1493" height="258" key="GridCell.Tab.1.center" timestamp="1653309718169">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653309630846" />
-    <state width="1493" height="258" key="GridCell.Tab.1.left" timestamp="1653309630845">
+    <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653309718169" />
+    <state width="1493" height="258" key="GridCell.Tab.1.left" timestamp="1653309718169">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653309630845" />
-    <state width="1493" height="258" key="GridCell.Tab.1.right" timestamp="1653309630846">
+    <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653309718169" />
+    <state width="1493" height="258" key="GridCell.Tab.1.right" timestamp="1653309718169">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653309630846" />
+    <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653309718169" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/per/khr/main/hash/Roman_to_Integer.java</url>
-          <line>10</line>
+          <line>11</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
