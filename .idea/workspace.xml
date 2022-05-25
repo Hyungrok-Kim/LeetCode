@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/hash/Longest_Common_Prefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/hash/Longest_Common_Prefix.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/per/khr/java/hash/Longest_Common_Prefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/khr/java/hash/Longest_Common_Prefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Longest_Common_PrefixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Longest_Common_PrefixTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,22 +179,22 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653398331784" />
-    <state width="1493" height="131" key="GridCell.Tab.0.bottom" timestamp="1653481711741">
+    <state width="1493" height="131" key="GridCell.Tab.0.bottom" timestamp="1653482178533">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653481711741" />
-    <state width="1493" height="131" key="GridCell.Tab.0.center" timestamp="1653481711741">
+    <state width="1493" height="131" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653482178533" />
+    <state width="1493" height="131" key="GridCell.Tab.0.center" timestamp="1653482178533">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653481711741" />
-    <state width="1493" height="131" key="GridCell.Tab.0.left" timestamp="1653481711741">
+    <state width="1493" height="131" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653482178533" />
+    <state width="1493" height="131" key="GridCell.Tab.0.left" timestamp="1653482178533">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653481711741" />
-    <state width="1493" height="131" key="GridCell.Tab.0.right" timestamp="1653481711741">
+    <state width="1493" height="131" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653482178533" />
+    <state width="1493" height="131" key="GridCell.Tab.0.right" timestamp="1653482178533">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653481711741" />
+    <state width="1493" height="131" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653482178533" />
     <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1653481678825">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -245,7 +243,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/per/khr/java/hash/Longest_Common_Prefix.java</url>
-          <line>4</line>
+          <line>5</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
