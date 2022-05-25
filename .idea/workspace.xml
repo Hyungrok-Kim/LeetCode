@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/per/khr/java/hash/Valid_Parentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/per/khr/java/hash/Valid_ParenthesesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/META-INF/LeetCode.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/hash/Longest_Common_Prefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/hash/Longest_Common_Prefix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/hash/Palindrome_Number.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/hash/Palindrome_Number.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/hash/Roman_to_Integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/hash/Roman_to_Integer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/hash/Two_Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/hash/Two_Sum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/per/khr/java/hash/Valid_Parentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/khr/java/hash/Valid_Parentheses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,20 +67,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Longest_Common_PrefixTest.test">
-    <configuration name="Palindrome_Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.khr.java.hash.Palindrome_Number" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.hash.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Valid_ParenthesesTest.isValid">
     <configuration name="Roman_to_Integer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="per.khr.java.hash.Roman_to_Integer" />
       <module name="LeetCode" />
@@ -121,20 +113,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Valid_ParenthesesTest.isValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="per.khr.java.hash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="per.khr.java.hash" />
+      <option name="MAIN_CLASS_NAME" value="per.khr.java.hash.Valid_ParenthesesTest" />
+      <option name="METHOD_NAME" value="isValid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Palindrome_Number" />
       <item itemvalue="Application.Roman_to_Integer (1)" />
       <item itemvalue="Application.Two_Sum (1)" />
       <item itemvalue="JUnit.Longest_Common_PrefixTest" />
       <item itemvalue="JUnit.Longest_Common_PrefixTest.test" />
+      <item itemvalue="JUnit.Valid_ParenthesesTest.isValid" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Valid_ParenthesesTest.isValid" />
         <item itemvalue="JUnit.Longest_Common_PrefixTest.test" />
         <item itemvalue="JUnit.Longest_Common_PrefixTest" />
         <item itemvalue="Application.Two_Sum (1)" />
         <item itemvalue="Application.Roman_to_Integer (1)" />
-        <item itemvalue="Application.Palindrome_Number" />
       </list>
     </recent_temporary>
   </component>
@@ -180,38 +188,38 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653398331784" />
-    <state width="1493" height="131" key="GridCell.Tab.0.bottom" timestamp="1653482178533">
+    <state width="1493" height="258" key="GridCell.Tab.0.bottom" timestamp="1653486297335">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653482178533" />
-    <state width="1493" height="131" key="GridCell.Tab.0.center" timestamp="1653482178533">
+    <state width="1493" height="258" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653486297335" />
+    <state width="1493" height="258" key="GridCell.Tab.0.center" timestamp="1653486297335">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653482178533" />
-    <state width="1493" height="131" key="GridCell.Tab.0.left" timestamp="1653482178533">
+    <state width="1493" height="258" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653486297335" />
+    <state width="1493" height="258" key="GridCell.Tab.0.left" timestamp="1653486297335">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653482178533" />
-    <state width="1493" height="131" key="GridCell.Tab.0.right" timestamp="1653482178533">
+    <state width="1493" height="258" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653486297335" />
+    <state width="1493" height="258" key="GridCell.Tab.0.right" timestamp="1653486297335">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653482178533" />
-    <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1653481678825">
+    <state width="1493" height="258" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653486297335" />
+    <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1653486297689">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653481678825" />
-    <state width="1493" height="258" key="GridCell.Tab.1.center" timestamp="1653481678824">
+    <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653486297689" />
+    <state width="1493" height="258" key="GridCell.Tab.1.center" timestamp="1653486297689">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653481678824" />
-    <state width="1493" height="258" key="GridCell.Tab.1.left" timestamp="1653481678824">
+    <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653486297689" />
+    <state width="1493" height="258" key="GridCell.Tab.1.left" timestamp="1653486297689">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653481678824" />
-    <state width="1493" height="258" key="GridCell.Tab.1.right" timestamp="1653481678824">
+    <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653486297689" />
+    <state width="1493" height="258" key="GridCell.Tab.1.right" timestamp="1653486297689">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653481678824" />
+    <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653486297689" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1653399592519">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -251,6 +259,11 @@
           <url>file://$PROJECT_DIR$/src/test/per/khr/java/hash/Valid_ParenthesesTest.java</url>
           <line>10</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/khr/java/hash/Valid_Parentheses.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

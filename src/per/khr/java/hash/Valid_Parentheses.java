@@ -1,23 +1,43 @@
 package per.khr.java.hash;
 
-import java.util.HashMap;
-
 public class Valid_Parentheses {
     public boolean isValid(String s) {
-        HashMap<Character, Integer> hs = new HashMap<>();
+        // 내 답안..
+        if (s.length() % 2 != 0) return false;
 
-        char[] cArr = s.toCharArray();
+        while (!s.isBlank()) {
+            int initialLength = s.length();
 
-        for (Character c : cArr) {
-            int count = hs.getOrDefault(c, 0);
+            s = s.replace("()", "");
+            s = s.replace("{}", "");
+            s = s.replace("[]", "");
 
-            hs.put(c, count + 1);
-        }
+            int endLength = s.length();
 
-        for (Integer i : hs.values()) {
-            if (i % 2 != 0) return false;
+            if (initialLength == endLength) return false;
         }
 
         return true;
+
+        // 쿨한 멋진 답안
+//        Map<Character,Character> mappings = new HashMap<Character,Character>(){{
+//            put(')', '(');
+//            put('}', '{');
+//            put(']', '[');
+//        }};
+//
+//        Stack<Character> letters = new Stack<>();
+//
+//        for(int i = 0; i < s.length(); i++){
+//            char temp = s.charAt(i);
+//            if(mappings.containsKey(temp)){
+//                if(letters.isEmpty() || letters.pop() != mappings.get(temp)){
+//                    return false;
+//                }
+//            } else{
+//                letters.push(temp);
+//            }
+//        }
+//        return letters.isEmpty();
     }
 }
