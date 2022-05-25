@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/per/khr/java/hash/Longest_Common_Prefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/khr/java/hash/Longest_Common_Prefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/khr/java/hash/Valid_Parentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/per/khr/java/hash/Valid_ParenthesesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
@@ -51,6 +51,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="per.khr.java.hash" />
       <recent name="" />
       <recent name="per.khr.main.hash" />
     </key>
@@ -223,10 +224,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="488" y="302" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653398185833" />
-    <state x="789" y="148" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1653399660732">
+    <state x="789" y="148" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1653482583367">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="789" y="148" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653399660732" />
+    <state x="789" y="148" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653482583367" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -245,6 +246,11 @@
           <url>file://$PROJECT_DIR$/src/per/khr/java/hash/Longest_Common_Prefix.java</url>
           <line>5</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/per/khr/java/hash/Valid_ParenthesesTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
