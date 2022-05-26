@@ -1,8 +1,11 @@
 package per.khr.java.hash;
 
+import java.util.HashMap;
+import java.util.Stack;
+
 public class Valid_Parentheses {
     public boolean isValid(String s) {
-        // 내 답안..
+        // 내 답안.. Stack 문제 였구나..
         if (s.length() % 2 != 0) return false;
 
         while (!s.isBlank()) {
@@ -39,5 +42,29 @@ public class Valid_Parentheses {
 //            }
 //        }
 //        return letters.isEmpty();
+    }
+
+    public boolean isValid2(String s) {
+        Stack<Character> stack = new Stack<>();
+        HashMap<Character, Character> hs = new HashMap<>();
+        hs.put(')', '(');
+        hs.put(']', '[');
+        hs.put('}', '{');
+
+        char[] charArr = s.toCharArray();
+
+        if (charArr.length % 2 != 0) return false;
+
+        for (Character c : charArr) {
+            if (hs.containsKey(c)) {
+                if (!stack.isEmpty() && stack.pop() == hs.get(c)) continue;
+                else return false;
+            } else {
+                stack.push(c);
+            }
+        }
+
+        if (stack.empty()) return true;
+        else return false;
     }
 }
