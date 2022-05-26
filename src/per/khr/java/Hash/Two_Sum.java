@@ -1,4 +1,4 @@
-package per.khr.java.hash;
+package per.khr.java.Hash;
 
 public class Two_Sum {
     public static int[] twoSum(int[] nums, int target) {

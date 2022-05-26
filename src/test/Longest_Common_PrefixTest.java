@@ -1,5 +1,5 @@
 import org.junit.Test;
-import per.khr.java.hash.Longest_Common_Prefix;
+import per.khr.java.Else.Longest_Common_Prefix;
 
 //import static org.junit.Assert.*;
 import static org.assertj.core.api.Assertions.assertThat;

@@ -1,4 +1,4 @@
-package per.khr.java.hash;
+package per.khr.java.Else;
 
 public class Longest_Common_Prefix {
     public String longestCommonPrefix(String[] strs) {

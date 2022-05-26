@@ -1,4 +1,4 @@
-package per.khr.java.hash;
+package per.khr.java.Hash;
 
 import java.util.HashMap;
 

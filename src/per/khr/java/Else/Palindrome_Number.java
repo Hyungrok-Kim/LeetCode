@@ -1,4 +1,4 @@
-package per.khr.java.hash;
+package per.khr.java.Else;
 
 public class Palindrome_Number {
     public static void main(String[] args) {

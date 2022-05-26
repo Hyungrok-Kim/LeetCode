@@ -1,4 +1,4 @@
-package per.khr.java.hash;
+package per.khr.java.Stack;
 
 import java.util.HashMap;
 import java.util.Stack;
