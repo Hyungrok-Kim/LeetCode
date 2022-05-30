@@ -64,12 +64,22 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Search_Insert_PositionTest.searchInsert">
+  <component name="RunManager" selected="JUnit.Maximum_SubarrayTest.maxSubArray">
     <configuration name="Implement_strStrTest.strStr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Implement_strStrTest" />
       <option name="METHOD_NAME" value="strStr" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Maximum_SubarrayTest.maxSubArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Maximum_SubarrayTest" />
+      <option name="METHOD_NAME" value="maxSubArray" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,22 +105,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Valid_ParenthesesTest.isValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="per.khr.java.Queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Valid_ParenthesesTest" />
-      <option name="METHOD_NAME" value="isValid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Valid_ParenthesesTest.isValid2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -128,19 +122,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Valid_ParenthesesTest.isValid" />
       <item itemvalue="JUnit.Valid_ParenthesesTest.isValid2" />
       <item itemvalue="JUnit.Merge_Two_Sorted_ListsTest.mergeTwoLists" />
       <item itemvalue="JUnit.Implement_strStrTest.strStr" />
       <item itemvalue="JUnit.Search_Insert_PositionTest.searchInsert" />
+      <item itemvalue="JUnit.Maximum_SubarrayTest.maxSubArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Maximum_SubarrayTest.maxSubArray" />
         <item itemvalue="JUnit.Search_Insert_PositionTest.searchInsert" />
         <item itemvalue="JUnit.Implement_strStrTest.strStr" />
         <item itemvalue="JUnit.Merge_Two_Sorted_ListsTest.mergeTwoLists" />
         <item itemvalue="JUnit.Valid_ParenthesesTest.isValid2" />
-        <item itemvalue="JUnit.Valid_ParenthesesTest.isValid" />
       </list>
     </recent_temporary>
   </component>
@@ -178,10 +172,11 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="520" y="211" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653571076754" />
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1653570997068">
-      <screen x="0" y="0" width="1536" height="816" />
+    <state x="718" y="149" key="#com.intellij.ide.util.MemberChooser" timestamp="1653915311640">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653570997068" />
+    <state x="718" y="149" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1653915311640" />
     <state x="599" y="119" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1653398442614">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -242,11 +237,11 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="571" y="186" key="chooseDestDirectoryDialog/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653397535352" />
-    <state x="574" y="293" key="com.intellij.ide.util.TipDialog" timestamp="1653832236368">
+    <state x="574" y="293" key="com.intellij.ide.util.TipDialog" timestamp="1653914370621">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="459" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1653738989482" />
-    <state x="574" y="293" key="com.intellij.ide.util.TipDialog/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1653832236368" />
+    <state x="574" y="293" key="com.intellij.ide.util.TipDialog/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1653914370621" />
     <state x="488" y="302" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1653398185833">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -255,11 +250,12 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="570" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653571231311" />
-    <state x="789" y="148" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1653740673913">
-      <screen x="0" y="0" width="1536" height="816" />
+    <state x="986" y="187" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1653915233887">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="789" y="148" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653569674298" />
     <state x="789" y="148" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.816@0.0.1536.816" timestamp="1653740673913" />
+    <state x="986" y="187" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1653915233887" />
     <state x="311" y="144" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1653568048552">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
