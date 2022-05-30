@@ -2,6 +2,7 @@ package per.khr.java.Else;
 
 import java.util.TreeSet;
 
+// 아무래도 Dynimic programming 으로 바꿔야할듯...
 public class Maximum_Subarray {
     private TreeSet<Integer> ts = new TreeSet<>();
 
@@ -10,7 +11,7 @@ public class Maximum_Subarray {
 
         int startFixed = startIdx;
         int sum = 0;
-        for(int i = startIdx; i < startIdx + plus; ++i) {
+        for(int i = startIdx; i <= startIdx + plus; ++i) {
             sum += nums[i];
         }
 
@@ -19,7 +20,6 @@ public class Maximum_Subarray {
     }
 
     public int maxSubArray(int[] nums) {
-
         int plus = 0;
         for (int i = 0; i < nums.length; ++i) {
             recursive(i, nums, plus);
