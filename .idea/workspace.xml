@@ -64,13 +64,22 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Maximum_SubarrayTest.maxSubArray">
+  <component name="RunManager" selected="JUnit.Maximum_SubarrayTest">
     <configuration name="Implement_strStrTest.strStr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Implement_strStrTest" />
       <option name="METHOD_NAME" value="strStr" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Maximum_SubarrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Maximum_SubarrayTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,36 +114,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Valid_ParenthesesTest.isValid2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="per.khr.java.Queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Valid_ParenthesesTest" />
-      <option name="METHOD_NAME" value="isValid2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.Valid_ParenthesesTest.isValid2" />
       <item itemvalue="JUnit.Merge_Two_Sorted_ListsTest.mergeTwoLists" />
       <item itemvalue="JUnit.Implement_strStrTest.strStr" />
       <item itemvalue="JUnit.Search_Insert_PositionTest.searchInsert" />
       <item itemvalue="JUnit.Maximum_SubarrayTest.maxSubArray" />
+      <item itemvalue="JUnit.Maximum_SubarrayTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Maximum_SubarrayTest" />
         <item itemvalue="JUnit.Maximum_SubarrayTest.maxSubArray" />
         <item itemvalue="JUnit.Search_Insert_PositionTest.searchInsert" />
         <item itemvalue="JUnit.Implement_strStrTest.strStr" />
         <item itemvalue="JUnit.Merge_Two_Sorted_ListsTest.mergeTwoLists" />
-        <item itemvalue="JUnit.Valid_ParenthesesTest.isValid2" />
       </list>
     </recent_temporary>
   </component>
@@ -189,54 +182,54 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653398331784" />
-    <state width="1877" height="344" key="GridCell.Tab.0.bottom" timestamp="1653915437064">
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom" timestamp="1653917680102">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1493" height="150" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574271623" />
     <state width="1493" height="150" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1653740909767" />
-    <state width="1877" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1653915437064" />
-    <state width="1877" height="344" key="GridCell.Tab.0.center" timestamp="1653915437064">
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1653917680102" />
+    <state width="1877" height="203" key="GridCell.Tab.0.center" timestamp="1653917680102">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1493" height="150" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574271623" />
     <state width="1493" height="150" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1653740909766" />
-    <state width="1877" height="344" key="GridCell.Tab.0.center/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1653915437064" />
-    <state width="1877" height="344" key="GridCell.Tab.0.left" timestamp="1653915437064">
+    <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1653917680102" />
+    <state width="1877" height="203" key="GridCell.Tab.0.left" timestamp="1653917680102">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1493" height="150" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574271623" />
     <state width="1493" height="150" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1653740909766" />
-    <state width="1877" height="344" key="GridCell.Tab.0.left/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1653915437064" />
-    <state width="1877" height="344" key="GridCell.Tab.0.right" timestamp="1653915437064">
+    <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1653917680102" />
+    <state width="1877" height="203" key="GridCell.Tab.0.right" timestamp="1653917680102">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1493" height="150" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574271623" />
     <state width="1493" height="150" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1653740909767" />
-    <state width="1877" height="344" key="GridCell.Tab.0.right/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1653915437064" />
-    <state width="1877" height="344" key="GridCell.Tab.1.bottom" timestamp="1653915437562">
+    <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1653917680102" />
+    <state width="1877" height="344" key="GridCell.Tab.1.bottom" timestamp="1653915608735">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574210478" />
     <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1653737583602" />
-    <state width="1877" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1653915437562" />
-    <state width="1877" height="344" key="GridCell.Tab.1.center" timestamp="1653915437561">
+    <state width="1877" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1653915608735" />
+    <state width="1877" height="344" key="GridCell.Tab.1.center" timestamp="1653915608735">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574210478" />
     <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1653737583602" />
-    <state width="1877" height="344" key="GridCell.Tab.1.center/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1653915437561" />
-    <state width="1877" height="344" key="GridCell.Tab.1.left" timestamp="1653915437561">
+    <state width="1877" height="344" key="GridCell.Tab.1.center/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1653915608735" />
+    <state width="1877" height="344" key="GridCell.Tab.1.left" timestamp="1653915608735">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574210478" />
     <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1653737583602" />
-    <state width="1877" height="344" key="GridCell.Tab.1.left/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1653915437561" />
-    <state width="1877" height="344" key="GridCell.Tab.1.right" timestamp="1653915437561">
+    <state width="1877" height="344" key="GridCell.Tab.1.left/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1653915608735" />
+    <state width="1877" height="344" key="GridCell.Tab.1.right" timestamp="1653915608735">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574210478" />
     <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1653737583602" />
-    <state width="1877" height="344" key="GridCell.Tab.1.right/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1653915437561" />
+    <state width="1877" height="344" key="GridCell.Tab.1.right/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1653915608735" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1653399592519">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -324,7 +317,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/per/khr/java/Else/Maximum_Subarray.java</url>
-          <line>21</line>
+          <line>6</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
