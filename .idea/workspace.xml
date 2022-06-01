@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/per/khr/java/Else/Add_Binary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Add_BinaryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/per/khr/java/Else/Add_Binary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/khr/java/Else/Add_Binary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Add_BinaryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Add_BinaryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,15 +67,11 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.Add_BinaryTest.addBinary">
-    <configuration name="Length_of_Last_Word" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="per.khr.java.Else.Length_of_Last_Word" />
+    <configuration name="Add_BinaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="per.khr.java.BruteForce.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Add_BinaryTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,18 +118,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Length_of_Last_WordTest.lengthOfLastWord" />
-      <item itemvalue="Application.Length_of_Last_Word" />
       <item itemvalue="JUnit.Plus_OneTest.plusOne" />
       <item itemvalue="JUnit.RunningSumOf1DArrayTest.runningSum" />
       <item itemvalue="JUnit.Add_BinaryTest.addBinary" />
+      <item itemvalue="JUnit.Add_BinaryTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Add_BinaryTest.addBinary" />
+        <item itemvalue="JUnit.Add_BinaryTest" />
         <item itemvalue="JUnit.RunningSumOf1DArrayTest.runningSum" />
         <item itemvalue="JUnit.Plus_OneTest.plusOne" />
         <item itemvalue="JUnit.Length_of_Last_WordTest.lengthOfLastWord" />
-        <item itemvalue="Application.Length_of_Last_Word" />
       </list>
     </recent_temporary>
   </component>
@@ -188,34 +184,34 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653398331784" />
-    <state width="1877" height="344" key="GridCell.Tab.0.bottom" timestamp="1654063562110">
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom" timestamp="1654067925348">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1493" height="150" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574271623" />
     <state width="1493" height="150" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1653740909767" />
     <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654007260678" />
-    <state width="1877" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654063562110" />
-    <state width="1877" height="344" key="GridCell.Tab.0.center" timestamp="1654063562110">
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654067925348" />
+    <state width="1877" height="203" key="GridCell.Tab.0.center" timestamp="1654067925348">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1493" height="150" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574271623" />
     <state width="1493" height="150" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1653740909766" />
     <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654007260678" />
-    <state width="1877" height="344" key="GridCell.Tab.0.center/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654063562110" />
-    <state width="1877" height="344" key="GridCell.Tab.0.left" timestamp="1654063562110">
+    <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654067925348" />
+    <state width="1877" height="203" key="GridCell.Tab.0.left" timestamp="1654067925348">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1493" height="150" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574271623" />
     <state width="1493" height="150" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1653740909766" />
     <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654007260678" />
-    <state width="1877" height="344" key="GridCell.Tab.0.left/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654063562110" />
-    <state width="1877" height="344" key="GridCell.Tab.0.right" timestamp="1654063562110">
+    <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654067925348" />
+    <state width="1877" height="203" key="GridCell.Tab.0.right" timestamp="1654067925348">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1493" height="150" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574271623" />
     <state width="1493" height="150" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1653740909767" />
     <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654007260678" />
-    <state width="1877" height="344" key="GridCell.Tab.0.right/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654063562110" />
+    <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654067925348" />
     <state width="1877" height="344" key="GridCell.Tab.1.bottom" timestamp="1654063562111">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
