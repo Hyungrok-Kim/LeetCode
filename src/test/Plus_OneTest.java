@@ -1,9 +1,7 @@
 import org.junit.Test;
-import per.khr.java.Else.Plus_One;
+import per.khr.java.BruteForce.Plus_One;
 
 import static org.assertj.core.api.Assertions.assertThat;
-
-//import static org.junit.Assert.*;
 
 public class Plus_OneTest {
 
