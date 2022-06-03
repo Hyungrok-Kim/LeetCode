@@ -18,7 +18,7 @@ public class Add_Binary {
             aCArr[i] += bCArr[i - lenDiff];
         }
 
-        // 어떻게 푸는 것인가..
+        // 어떻게 푸는 것인가.. 후우ㅎ
         return null;
     }
 }
