@@ -19,6 +19,7 @@ public class Add_Binary {
         }
 
         // 어떻게 푸는 것인가.. 후우ㅎ
+        // 참 어렵다 사람이란게
         return null;
     }
 }
