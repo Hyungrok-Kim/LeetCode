@@ -1,5 +1,6 @@
 package per.khr.java.Else;
 
+// long으로도 감당이 안되는 크기의 수가 나왔다..
 public class Add_Binary {
     //    public String addBinary(String a, String b) {
 //        long aToDecimal = Long.valueOf(a, 2);
@@ -17,9 +18,6 @@ public class Add_Binary {
         for (int i = aCArr.length - 1; i >= 0; --i) {
             aCArr[i] += bCArr[i - lenDiff];
         }
-
-        // 어떻게 푸는 것인가.. 후우ㅎ
-        // 참 어렵다 사람이란게
         return null;
     }
 }
