@@ -16,19 +16,26 @@ public class Add_Binary {
 
         int aTarget = a.length() - 1;
         int bTarget = b.length() - 1;
-
+        int carry = 0;
         while (aTarget >= 0 || bTarget >= 0) {
-            int temp = 0;
-            int target = Character.getNumericValue(a.charAt(aTarget--)) + Character.getNumericValue(b.charAt(bTarget--)) + temp;
-            if (target >= 2) {
-                temp++;
-                sb.append(target - 2);
-            } else sb.append(target);
+            int sum = carry;
 
-            temp = 0;
+            if(aTarget >= 0) {
+                sum += Character.getNumericValue(a.charAt(aTarget--));
+            }
+
+            if(bTarget >= 0) {
+                sum += Character.getNumericValue(b.charAt(bTarget--));
+            }
+
+            sb.append(sum % 2);
+            carry = sum / 2;
         }
 
+        if (carry != 0) {
+            sb.append(carry);
+        }
+
+        return sb.reverse().toString();
     }
-
-
 }
