@@ -2,22 +2,33 @@ package per.khr.java.Else;
 
 // long으로도 감당이 안되는 크기의 수가 나왔다..
 public class Add_Binary {
-    //    public String addBinary(String a, String b) {
-//        long aToDecimal = Long.valueOf(a, 2);
-//        long bToDecimal = Long.valueOf(b, 2);
+    // Solution 1
+//    public String addBinary(String a, String b) {
+//        BigInteger aBi = new BigInteger(a, 2);
+//        BigInteger bBi = new BigInteger(b, 2);
 //
-//        return Long.toBinaryString(aToDecimal + bToDecimal);
+//        return aBi.add(bBi).toString(2);
 //    }
 
+    // Solution 2
     public String addBinary(String a, String b) {
-        int lenDiff = a.length() - b.length();
+        StringBuilder sb = new StringBuilder();
 
-        char[] aCArr = a.toCharArray();
-        char[] bCArr = b.toCharArray();
+        int aTarget = a.length() - 1;
+        int bTarget = b.length() - 1;
 
-        for (int i = aCArr.length - 1; i >= 0; --i) {
-            aCArr[i] += bCArr[i - lenDiff];
+        while (aTarget >= 0 || bTarget >= 0) {
+            int temp = 0;
+            int target = Character.getNumericValue(a.charAt(aTarget--)) + Character.getNumericValue(b.charAt(bTarget--)) + temp;
+            if (target >= 2) {
+                temp++;
+                sb.append(target - 2);
+            } else sb.append(target);
+
+            temp = 0;
         }
-        return null;
+
     }
+
+
 }
