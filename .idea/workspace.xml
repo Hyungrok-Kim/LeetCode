@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/per/khr/java/Else/Sqrt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/SqrtTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/per/khr/java/Else/Add_Binary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/khr/java/Else/Add_Binary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Add_BinaryTest.addBinary">
+  <component name="RunManager" selected="JUnit.SqrtTest.mySqrt">
     <configuration name="Add_BinaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
@@ -80,16 +81,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Add_BinaryTest" />
       <option name="METHOD_NAME" value="addBinary" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Length_of_Last_WordTest.lengthOfLastWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Length_of_Last_WordTest" />
-      <option name="METHOD_NAME" value="lengthOfLastWord" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,20 +106,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SqrtTest.mySqrt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SqrtTest" />
+      <option name="METHOD_NAME" value="mySqrt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.Add_BinaryTest" />
       <item itemvalue="JUnit.Add_BinaryTest.addBinary" />
-      <item itemvalue="JUnit.Length_of_Last_WordTest.lengthOfLastWord" />
       <item itemvalue="JUnit.Plus_OneTest.plusOne" />
       <item itemvalue="JUnit.RunningSumOf1DArrayTest.runningSum" />
+      <item itemvalue="JUnit.SqrtTest.mySqrt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SqrtTest.mySqrt" />
         <item itemvalue="JUnit.Add_BinaryTest.addBinary" />
         <item itemvalue="JUnit.Add_BinaryTest" />
         <item itemvalue="JUnit.RunningSumOf1DArrayTest.runningSum" />
         <item itemvalue="JUnit.Plus_OneTest.plusOne" />
-        <item itemvalue="JUnit.Length_of_Last_WordTest.lengthOfLastWord" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +163,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="359" y="74" key="#Longest_Common_PrefixTest/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653399860759" />
+    <state x="-1828" y="92" width="1736" height="848" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1654609871238">
+      <screen x="-1920" y="0" width="1920" height="1032" />
+    </state>
+    <state x="-1828" y="92" width="1736" height="848" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654609871238" />
     <state x="520" y="211" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1653571076754">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -183,61 +188,61 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653398331784" />
-    <state width="1877" height="203" key="GridCell.Tab.0.bottom" timestamp="1654606186949">
+    <state width="1877" height="344" key="GridCell.Tab.0.bottom" timestamp="1654609995987">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state width="1493" height="150" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574271623" />
     <state width="1493" height="150" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1653740909767" />
-    <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654606186949" />
+    <state width="1877" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654609995987" />
     <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654094500879" />
-    <state width="1877" height="203" key="GridCell.Tab.0.center" timestamp="1654606186949">
+    <state width="1877" height="344" key="GridCell.Tab.0.center" timestamp="1654609995987">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state width="1493" height="150" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574271623" />
     <state width="1493" height="150" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1653740909766" />
-    <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654606186949" />
+    <state width="1877" height="344" key="GridCell.Tab.0.center/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654609995987" />
     <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654094500879" />
-    <state width="1877" height="203" key="GridCell.Tab.0.left" timestamp="1654606186949">
+    <state width="1877" height="344" key="GridCell.Tab.0.left" timestamp="1654609995987">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state width="1493" height="150" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574271623" />
     <state width="1493" height="150" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1653740909766" />
-    <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654606186949" />
+    <state width="1877" height="344" key="GridCell.Tab.0.left/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654609995987" />
     <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654094500879" />
-    <state width="1877" height="203" key="GridCell.Tab.0.right" timestamp="1654606186949">
+    <state width="1877" height="344" key="GridCell.Tab.0.right" timestamp="1654609995987">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state width="1493" height="150" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574271623" />
     <state width="1493" height="150" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1653740909767" />
-    <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654606186949" />
+    <state width="1877" height="344" key="GridCell.Tab.0.right/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654609995987" />
     <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654094500879" />
-    <state width="1877" height="344" key="GridCell.Tab.1.bottom" timestamp="1654606158013">
+    <state width="1877" height="344" key="GridCell.Tab.1.bottom" timestamp="1654609995988">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574210478" />
     <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1653737583602" />
-    <state width="1877" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654606158013" />
+    <state width="1877" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654609995988" />
     <state width="1877" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654063562111" />
-    <state width="1877" height="344" key="GridCell.Tab.1.center" timestamp="1654606158013">
+    <state width="1877" height="344" key="GridCell.Tab.1.center" timestamp="1654609995987">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574210478" />
     <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1653737583602" />
-    <state width="1877" height="344" key="GridCell.Tab.1.center/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654606158013" />
+    <state width="1877" height="344" key="GridCell.Tab.1.center/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654609995987" />
     <state width="1877" height="344" key="GridCell.Tab.1.center/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654063562111" />
-    <state width="1877" height="344" key="GridCell.Tab.1.left" timestamp="1654606158013">
+    <state width="1877" height="344" key="GridCell.Tab.1.left" timestamp="1654609995987">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574210478" />
     <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1653737583602" />
-    <state width="1877" height="344" key="GridCell.Tab.1.left/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654606158013" />
+    <state width="1877" height="344" key="GridCell.Tab.1.left/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654609995987" />
     <state width="1877" height="344" key="GridCell.Tab.1.left/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654063562110" />
-    <state width="1877" height="344" key="GridCell.Tab.1.right" timestamp="1654606158013">
+    <state width="1877" height="344" key="GridCell.Tab.1.right" timestamp="1654609995988">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574210478" />
     <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1653737583602" />
-    <state width="1877" height="344" key="GridCell.Tab.1.right/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654606158013" />
+    <state width="1877" height="344" key="GridCell.Tab.1.right/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654609995988" />
     <state width="1877" height="344" key="GridCell.Tab.1.right/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654063562111" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1653399592519">
       <screen x="0" y="0" width="1536" height="816" />
@@ -264,11 +269,12 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="570" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653571231311" />
-    <state x="986" y="187" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1654066493185">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state x="-934" y="187" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1654609036707">
+      <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state x="789" y="148" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653569674298" />
     <state x="789" y="148" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.816@0.0.1536.816" timestamp="1653740673913" />
+    <state x="-934" y="187" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654609036707" />
     <state x="986" y="187" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654066493185" />
     <state x="311" y="144" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1653568048552">
       <screen x="0" y="0" width="1536" height="816" />
@@ -376,6 +382,16 @@
           <url>file://$PROJECT_DIR$/src/per/khr/java/Else/Add_Binary.java</url>
           <line>6</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/khr/java/Else/Add_Binary.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/SqrtTest.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
