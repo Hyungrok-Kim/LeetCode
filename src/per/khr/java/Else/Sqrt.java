@@ -17,6 +17,8 @@ public class Sqrt {
             if (x >= pre && (x < post || post < 0)) return i;
         }
 
+        // 어떻게 풀어야 하는가
+
         return 0;
     }
 }
