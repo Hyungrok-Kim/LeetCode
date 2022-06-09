@@ -1,5 +1,5 @@
 import org.junit.Test;
-import per.khr.java.Else.Sqrt;
+import per.khr.java.BinarySearch.Sqrt;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
