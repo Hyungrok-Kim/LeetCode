@@ -1,5 +1,5 @@
 import org.junit.Test;
-import per.khr.java.Else.ClimbingStairs;
+import per.khr.java.DynamicProgramming.ClimbingStairs;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
