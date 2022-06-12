@@ -6,7 +6,6 @@ package per.khr.java.DynamicProgramming;
 // n = 3 => 3
 // n = 4 => 5
 // n = 5 => 8개
-// 재귀 문제 였구나...
 
 public class ClimbingStairs {
 //    public int recursive(int n, int[] dp) {
