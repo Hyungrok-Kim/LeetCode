@@ -1,6 +1,8 @@
 package per.khr.java.Else;
 
 // long으로도 감당이 안되는 크기의 수가 나왔다..
+// 그럴 땐 java의 BigInteger Class
+// 왜 기여가 안떠
 public class Add_Binary {
     // Solution 1
 //    public String addBinary(String a, String b) {
