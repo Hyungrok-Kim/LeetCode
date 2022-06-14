@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/per/khr/java/Else/Merge_Sorted_Arrray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Merge_Sorted_ArrrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -302,11 +300,6 @@
           <url>file://$PROJECT_DIR$/src/per/khr/java/Else/Remove_Duplicates_from_Sorted_List.java</url>
           <line>12</line>
           <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/per/khr/java/Else/Merge_Sorted_Arrray.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/Merge_Sorted_ArrrayTest.java</url>
