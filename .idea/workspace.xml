@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/per/khr/java/Else/Merge_Sorted_Arrray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Merge_Sorted_ArrrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/per/khr/java/Else/Remove_Duplicates_from_Sorted_List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/khr/java/Else/Remove_Duplicates_from_Sorted_List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/per/khr/java/vo/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/khr/java/vo/ListNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,7 @@
         <option value="FxmlFile" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit3 Test Class" />
       </list>
     </option>
   </component>
@@ -42,27 +43,30 @@
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="hash" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
       <recent name="src.test" />
       <recent name="per.khr.java.hash" />
       <recent name="per.khr.main.hash" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-      <recent name="hash" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.Valid_ParenthesesTest.isValid">
+  <component name="RunManager" selected="JUnit.Merge_Sorted_ArrrayTest.testMerge">
     <configuration name="ClimbingStairsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
@@ -82,11 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SqrtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Merge_Sorted_ArrrayTest.testMerge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SqrtTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="Merge_Sorted_ArrrayTest" />
+      <option name="METHOD_NAME" value="testMerge" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,19 +117,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.Merge_Sorted_ArrrayTest.testMerge" />
       <item itemvalue="JUnit.Valid_ParenthesesTest.isValid" />
       <item itemvalue="JUnit.SqrtTest.mySqrt" />
-      <item itemvalue="JUnit.SqrtTest" />
       <item itemvalue="JUnit.ClimbingStairsTest.climbStairs" />
       <item itemvalue="JUnit.ClimbingStairsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Merge_Sorted_ArrrayTest.testMerge" />
         <item itemvalue="JUnit.Valid_ParenthesesTest.isValid" />
         <item itemvalue="JUnit.ClimbingStairsTest.climbStairs" />
         <item itemvalue="JUnit.ClimbingStairsTest" />
         <item itemvalue="JUnit.SqrtTest.mySqrt" />
-        <item itemvalue="JUnit.SqrtTest" />
       </list>
     </recent_temporary>
   </component>
@@ -295,8 +300,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/per/khr/java/Else/Remove_Duplicates_from_Sorted_List.java</url>
-          <line>11</line>
+          <line>12</line>
           <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/khr/java/Else/Merge_Sorted_Arrray.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/Merge_Sorted_ArrrayTest.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
