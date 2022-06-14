@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/per/khr/java/Else/Remove_Duplicates_from_Sorted_List.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,38 +19,34 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="29Z2j1J2uujOXx1o92hxvPkU5Du" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
@@ -64,17 +62,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ClimbingStairsTest.climbStairs">
-    <configuration name="Add_BinaryTest.addBinary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Add_BinaryTest" />
-      <option name="METHOD_NAME" value="addBinary" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Valid_ParenthesesTest.isValid">
     <configuration name="ClimbingStairsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
@@ -113,8 +101,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Valid_ParenthesesTest.isValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Valid_ParenthesesTest" />
+      <option name="METHOD_NAME" value="isValid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.Add_BinaryTest.addBinary" />
+      <item itemvalue="JUnit.Valid_ParenthesesTest.isValid" />
       <item itemvalue="JUnit.SqrtTest.mySqrt" />
       <item itemvalue="JUnit.SqrtTest" />
       <item itemvalue="JUnit.ClimbingStairsTest.climbStairs" />
@@ -122,11 +120,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Valid_ParenthesesTest.isValid" />
         <item itemvalue="JUnit.ClimbingStairsTest.climbStairs" />
         <item itemvalue="JUnit.ClimbingStairsTest" />
         <item itemvalue="JUnit.SqrtTest.mySqrt" />
         <item itemvalue="JUnit.SqrtTest" />
-        <item itemvalue="JUnit.Add_BinaryTest.addBinary" />
       </list>
     </recent_temporary>
   </component>
@@ -142,6 +140,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -155,133 +154,16 @@
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="359" y="74" key="#Longest_Common_PrefixTest" timestamp="1653399860759">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="359" y="74" key="#Longest_Common_PrefixTest/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653399860759" />
-    <state x="-1828" y="92" width="1736" height="848" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1654609871238">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state x="-1828" y="92" width="1736" height="848" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654609871238" />
-    <state x="520" y="211" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1653571076754">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="520" y="211" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653571076754" />
-    <state x="718" y="149" key="#com.intellij.ide.util.MemberChooser" timestamp="1654002914022">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653570997068" />
-    <state x="718" y="149" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654002914022" />
-    <state x="599" y="119" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1653398442614">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="599" y="119" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653398442614" />
-    <state x="560" y="267" width="415" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1653568702721">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="560" y="267" width="415" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653568702721" />
-    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1653398331784">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653398331784" />
-    <state width="1877" height="203" key="GridCell.Tab.0.bottom" timestamp="1654782723866">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1493" height="150" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574271623" />
-    <state width="1493" height="150" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1653740909767" />
-    <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654782723866" />
-    <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654094500879" />
-    <state width="1877" height="203" key="GridCell.Tab.0.center" timestamp="1654782723866">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1493" height="150" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574271623" />
-    <state width="1493" height="150" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1653740909766" />
-    <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654782723866" />
-    <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654094500879" />
-    <state width="1877" height="203" key="GridCell.Tab.0.left" timestamp="1654782723866">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1493" height="150" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574271623" />
-    <state width="1493" height="150" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1653740909766" />
-    <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654782723866" />
-    <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654094500879" />
-    <state width="1877" height="203" key="GridCell.Tab.0.right" timestamp="1654782723866">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1493" height="150" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574271623" />
-    <state width="1493" height="150" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1653740909767" />
-    <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654782723866" />
-    <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654094500879" />
-    <state width="1877" height="344" key="GridCell.Tab.1.bottom" timestamp="1654782603767">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574210478" />
-    <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1653737583602" />
-    <state width="1877" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654782603767" />
-    <state width="1877" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654063562111" />
-    <state width="1877" height="344" key="GridCell.Tab.1.center" timestamp="1654782603767">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574210478" />
-    <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1653737583602" />
-    <state width="1877" height="344" key="GridCell.Tab.1.center/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654782603767" />
-    <state width="1877" height="344" key="GridCell.Tab.1.center/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654063562111" />
-    <state width="1877" height="344" key="GridCell.Tab.1.left" timestamp="1654782603767">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574210478" />
-    <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1653737583602" />
-    <state width="1877" height="344" key="GridCell.Tab.1.left/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654782603767" />
-    <state width="1877" height="344" key="GridCell.Tab.1.left/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654063562110" />
-    <state width="1877" height="344" key="GridCell.Tab.1.right" timestamp="1654782603767">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653574210478" />
-    <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1653737583602" />
-    <state width="1877" height="344" key="GridCell.Tab.1.right/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654782603767" />
-    <state width="1877" height="344" key="GridCell.Tab.1.right/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654063562111" />
-    <state x="311" y="0" key="SettingsEditor" timestamp="1655123373087">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653399592519" />
-    <state x="311" y="0" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1655123373087" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1654057701526">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654057701526" />
-    <state x="571" y="186" key="chooseDestDirectoryDialog" timestamp="1653397535352">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="571" y="186" key="chooseDestDirectoryDialog/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653397535352" />
-    <state x="574" y="293" key="com.intellij.ide.util.TipDialog" timestamp="1654521159270">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="459" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1653738989482" />
-    <state x="574" y="293" key="com.intellij.ide.util.TipDialog/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654521159270" />
-    <state x="488" y="302" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1653398185833">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="488" y="302" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653398185833" />
-    <state x="570" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1653571231311">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="570" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653571231311" />
-    <state x="-934" y="187" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1654778086182">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state x="789" y="148" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653569674298" />
-    <state x="789" y="148" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.816@0.0.1536.816" timestamp="1653740673913" />
-    <state x="-934" y="187" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1032/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654778086182" />
-    <state x="986" y="187" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1654066493185" />
-    <state x="311" y="144" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1653568048552">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="311" y="144" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1653568048552" />
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1653918290406">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032/-1920.0.1920.1032@0.0.1920.1032" timestamp="1653918290406" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -323,7 +205,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/Implement_strStrTest.java</url>
-          <line>10</line>
+          <line>11</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -373,17 +255,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/Add_BinaryTest.java</url>
-          <line>9</line>
+          <line>10</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/per/khr/java/Else/Add_Binary.java</url>
-          <line>6</line>
+          <line>7</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/per/khr/java/Else/Add_Binary.java</url>
-          <line>14</line>
+          <line>15</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
