@@ -6,6 +6,7 @@ import java.util.Iterator;
 import java.util.TreeSet;
 
 // 미완성
+// 어떻게 푸는겨
 public class Remove_Duplicates_from_Sorted_List {
     public ListNode deleteDuplicates(ListNode head) {
         TreeSet<Integer> ts = new TreeSet<>();
