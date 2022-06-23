@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/src/per/khr/java/Else/Same_Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/per/khr/java/Else/Binary_Tree_Inorder_Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/khr/java/Stack/Binary_Tree_Inorder_Traversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Binary_Tree_Inorder_TraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Binary_Tree_Inorder_TraversalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Same_TreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/LeetCode/Binary_Tree_Inorder_TraversalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/LeetCode/Binary_Tree_Inorder_TraversalTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/per/khr/java/Else/Same_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/khr/java/Else/Same_Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +21,8 @@
         <option value="JUnit5 Test Class" />
         <option value="FxmlFile" />
         <option value="JUnit4 Test Class" />
-        <option value="JUnit3 Test Class" />
         <option value="Class" />
+        <option value="JUnit3 Test Class" />
       </list>
     </option>
   </component>
@@ -66,22 +67,13 @@
       <recent name="per.khr.main.hash" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Binary_Tree_Inorder_TraversalTest.testInorderTraversal">
+  <component name="RunManager" selected="JUnit.Same_TreeTest.testIsSameTree">
     <configuration name="Binary_Tree_Inorder_TraversalTest.testInorderTraversal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Binary_Tree_Inorder_TraversalTest" />
       <option name="METHOD_NAME" value="testInorderTraversal" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClimbingStairsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClimbingStairsTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,6 +98,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Same_TreeTest.testIsSameTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Same_TreeTest" />
+      <option name="METHOD_NAME" value="testIsSameTree" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Valid_ParenthesesTest.isValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
@@ -118,18 +120,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Binary_Tree_Inorder_TraversalTest.testInorderTraversal" />
+      <item itemvalue="JUnit.Same_TreeTest.testIsSameTree" />
       <item itemvalue="JUnit.Merge_Sorted_ArrrayTest.testMerge" />
       <item itemvalue="JUnit.Valid_ParenthesesTest.isValid" />
       <item itemvalue="JUnit.ClimbingStairsTest.climbStairs" />
-      <item itemvalue="JUnit.ClimbingStairsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Same_TreeTest.testIsSameTree" />
         <item itemvalue="JUnit.Binary_Tree_Inorder_TraversalTest.testInorderTraversal" />
         <item itemvalue="JUnit.Merge_Sorted_ArrrayTest.testMerge" />
         <item itemvalue="JUnit.Valid_ParenthesesTest.isValid" />
         <item itemvalue="JUnit.ClimbingStairsTest.climbStairs" />
-        <item itemvalue="JUnit.ClimbingStairsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -317,6 +319,11 @@
           <url>file://$PROJECT_DIR$/src/per/khr/java/Stack/Binary_Tree_Inorder_Traversal.java</url>
           <line>10</line>
           <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/Same_TreeTest.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
