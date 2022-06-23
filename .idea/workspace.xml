@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="Default Changelist" />
+    <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/src/per/khr/java/Else/Binary_Tree_Inorder_Traversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/khr/java/vo/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Binary_Tree_Inorder_TraversalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +67,17 @@
       <recent name="per.khr.main.hash" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Merge_Sorted_ArrrayTest.testMerge">
+  <component name="RunManager" selected="JUnit.Binary_Tree_Inorder_TraversalTest.testInorderTraversal">
+    <configuration name="Binary_Tree_Inorder_TraversalTest.testInorderTraversal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Binary_Tree_Inorder_TraversalTest" />
+      <option name="METHOD_NAME" value="testInorderTraversal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClimbingStairsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
@@ -92,16 +107,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SqrtTest.mySqrt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SqrtTest" />
-      <option name="METHOD_NAME" value="mySqrt" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Valid_ParenthesesTest.isValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
@@ -113,19 +118,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.Binary_Tree_Inorder_TraversalTest.testInorderTraversal" />
       <item itemvalue="JUnit.Merge_Sorted_ArrrayTest.testMerge" />
       <item itemvalue="JUnit.Valid_ParenthesesTest.isValid" />
-      <item itemvalue="JUnit.SqrtTest.mySqrt" />
       <item itemvalue="JUnit.ClimbingStairsTest.climbStairs" />
       <item itemvalue="JUnit.ClimbingStairsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Binary_Tree_Inorder_TraversalTest.testInorderTraversal" />
         <item itemvalue="JUnit.Merge_Sorted_ArrrayTest.testMerge" />
         <item itemvalue="JUnit.Valid_ParenthesesTest.isValid" />
         <item itemvalue="JUnit.ClimbingStairsTest.climbStairs" />
         <item itemvalue="JUnit.ClimbingStairsTest" />
-        <item itemvalue="JUnit.SqrtTest.mySqrt" />
       </list>
     </recent_temporary>
   </component>
@@ -296,13 +301,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/per/khr/java/Else/Remove_Duplicates_from_Sorted_List.java</url>
-          <line>13</line>
+          <line>11</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/Merge_Sorted_ArrrayTest.java</url>
           <line>8</line>
           <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/Binary_Tree_Inorder_TraversalTest.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/khr/java/Else/Binary_Tree_Inorder_Traversal.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
