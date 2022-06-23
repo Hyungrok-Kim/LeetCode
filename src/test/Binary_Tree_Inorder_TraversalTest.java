@@ -1,5 +1,5 @@
 import junit.framework.TestCase;
-import per.khr.java.Else.Binary_Tree_Inorder_Traversal;
+import per.khr.java.Stack.Binary_Tree_Inorder_Traversal;
 import per.khr.java.vo.TreeNode;
 
 public class Binary_Tree_Inorder_TraversalTest extends TestCase {
