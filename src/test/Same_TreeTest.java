@@ -1,5 +1,5 @@
 import junit.framework.TestCase;
-import per.khr.java.Else.Same_Tree;
+import per.khr.java.DynamicProgramming.Same_Tree;
 
 public class Same_TreeTest extends TestCase {
 

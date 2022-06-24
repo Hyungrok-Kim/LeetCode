@@ -1,4 +1,4 @@
-package per.khr.java.Else;
+package per.khr.java.DynamicProgramming;
 
 import per.khr.java.vo.TreeNode;
 
