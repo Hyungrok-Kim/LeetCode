@@ -21,4 +21,9 @@ public class Maximum_Depth_of_Binary_Tree {
 
         return ts.pollLast();
     }
+
+//    한줄 답안
+//    public static int maxDepth(TreeNode root) {
+//        return (root == null) ? 0 : 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
+//    }
 }
