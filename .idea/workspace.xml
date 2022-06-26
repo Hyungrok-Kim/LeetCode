@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/src/per/khr/java/Else/Minimum_Depth_of_Binary_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/khr/java/Else/sixshop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/sixshopTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/LeetCode/Same_TreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/LeetCode/Same_TreeTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +21,8 @@
         <option value="JUnit5 Test Class" />
         <option value="FxmlFile" />
         <option value="JUnit4 Test Class" />
-        <option value="JUnit3 Test Class" />
         <option value="Class" />
+        <option value="JUnit3 Test Class" />
       </list>
     </option>
   </component>
@@ -65,32 +67,12 @@
       <recent name="per.khr.main.hash" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Same_TreeTest.testIsSameTree">
+  <component name="RunManager" selected="JUnit.sixshopTest.testTest2">
     <configuration name="Binary_Tree_Inorder_TraversalTest.testInorderTraversal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Binary_Tree_Inorder_TraversalTest" />
       <option name="METHOD_NAME" value="testInorderTraversal" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClimbingStairsTest.climbStairs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClimbingStairsTest" />
-      <option name="METHOD_NAME" value="climbStairs" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Merge_Sorted_ArrrayTest.testMerge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Merge_Sorted_ArrrayTest" />
-      <option name="METHOD_NAME" value="testMerge" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,30 +88,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Valid_ParenthesesTest.isValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="sixshopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Valid_ParenthesesTest" />
-      <option name="METHOD_NAME" value="isValid" />
+      <option name="MAIN_CLASS_NAME" value="sixshopTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sixshopTest.testMaxSubArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="sixshopTest" />
+      <option name="METHOD_NAME" value="testMaxSubArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sixshopTest.testTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="sixshopTest" />
+      <option name="METHOD_NAME" value="testTest2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.sixshopTest" />
+      <item itemvalue="JUnit.sixshopTest.testMaxSubArray" />
+      <item itemvalue="JUnit.sixshopTest.testTest2" />
       <item itemvalue="JUnit.Binary_Tree_Inorder_TraversalTest.testInorderTraversal" />
       <item itemvalue="JUnit.Same_TreeTest.testIsSameTree" />
-      <item itemvalue="JUnit.Merge_Sorted_ArrrayTest.testMerge" />
-      <item itemvalue="JUnit.Valid_ParenthesesTest.isValid" />
-      <item itemvalue="JUnit.ClimbingStairsTest.climbStairs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.sixshopTest.testTest2" />
+        <item itemvalue="JUnit.sixshopTest" />
+        <item itemvalue="JUnit.sixshopTest.testMaxSubArray" />
         <item itemvalue="JUnit.Same_TreeTest.testIsSameTree" />
         <item itemvalue="JUnit.Binary_Tree_Inorder_TraversalTest.testInorderTraversal" />
-        <item itemvalue="JUnit.Merge_Sorted_ArrrayTest.testMerge" />
-        <item itemvalue="JUnit.Valid_ParenthesesTest.isValid" />
-        <item itemvalue="JUnit.ClimbingStairsTest.climbStairs" />
       </list>
     </recent_temporary>
   </component>
@@ -322,6 +323,16 @@
           <url>file://$PROJECT_DIR$/src/test/Same_TreeTest.java</url>
           <line>6</line>
           <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/khr/java/Else/sixshop.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/sixshopTest.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
