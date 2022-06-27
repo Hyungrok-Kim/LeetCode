@@ -24,7 +24,7 @@ public class Intersection_of_Two_Arrays {
             int startIndex = 0;
             int endIndex = largeArr.length - 1;
 
-            while (startIndex != endIndex) {
+            while (endIndex - startIndex != 1) {
                 int targetIndex = (startIndex + endIndex) / 2;
 
                 if (largeArr[targetIndex] == num) {
@@ -36,6 +36,9 @@ public class Intersection_of_Two_Arrays {
                     startIndex = targetIndex;
                 }
             }
+
+            if (largeArr[startIndex] == num) hs.add(num);
+            if (largeArr[endIndex] == num) hs.add(num);
         }
 
         int[] result = new int[hs.size()];
