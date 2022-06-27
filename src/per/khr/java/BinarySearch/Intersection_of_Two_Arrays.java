@@ -7,32 +7,35 @@ import java.util.Iterator;
 public class Intersection_of_Two_Arrays {
     public int[] intersection(int[] nums1, int[] nums2) {
         HashSet<Integer> hs = new HashSet<>();
-        int nums1Len = nums1.length;
-        int nums2Len = nums2.length;
+        int nums1Len = nums1.length, nums2Len = nums2.length;;
+        int[] largeArr, smallArr;
 
         if (nums1Len > nums2Len) {
-            Arrays.sort(nums1);
+           largeArr = nums1;
+           smallArr = nums2;
+        } else {
+            largeArr = nums2;
+            smallArr = nums1;
+        }
 
-            for (int num2 : nums2) {
-                int startIndex = 0;
-                int endIndex = nums1Len - 1;
+        Arrays.sort(largeArr);
 
-                while (startIndex != endIndex) {
-                    int targetIndex = (startIndex + endIndex) / 2;
+        for (int num : smallArr) {
+            int startIndex = 0;
+            int endIndex = largeArr.length - 1;
 
-                    if (nums1[targetIndex] == num2) {
-                        hs.add(num2);
-                        break;
-                    } else if (nums1[targetIndex] > num2) {
-                        endIndex = targetIndex;
-                    } else if (nums1[targetIndex] < num2) {
-                        startIndex = targetIndex;
-                    }
+            while (startIndex != endIndex) {
+                int targetIndex = (startIndex + endIndex) / 2;
+
+                if (largeArr[targetIndex] == num) {
+                    hs.add(num);
+                    break;
+                } else if (largeArr[targetIndex] > num) {
+                    endIndex = targetIndex;
+                } else if (largeArr[targetIndex] < num) {
+                    startIndex = targetIndex;
                 }
             }
-        } else {
-            Arrays.sort(nums2);
-
         }
 
         int[] result = new int[hs.size()];
