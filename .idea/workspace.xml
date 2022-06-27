@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/src/test/Intersection_of_Two_ArraysTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/LeetCode/sixshopTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/LeetCode/sixshopTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/per/khr/java/BinarySearch/Intersection_of_Two_Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/khr/java/BinarySearch/Intersection_of_Two_Arrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -333,16 +331,6 @@
           <url>file://$PROJECT_DIR$/src/test/sixshopTest.java</url>
           <line>17</line>
           <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/Intersection_of_Two_ArraysTest.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/per/khr/java/BinarySearch/Intersection_of_Two_Arrays.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="55" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

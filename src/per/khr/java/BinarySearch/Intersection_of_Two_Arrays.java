@@ -53,4 +53,15 @@ public class Intersection_of_Two_Arrays {
 
         return result;
     }
+
+//    스트림 답안
+//    public int[] intersection(int[] nums1, int[] nums2)
+//    {
+//        Set<Integer> n2Set = Arrays.stream(nums2).boxed().collect(Collectors.toSet());
+//        return Arrays.stream(nums1)
+//                .boxed()
+//                .filter(n2Set::contains)
+//                .distinct()
+//                .mapToInt(i->i).toArray();
+//    }
 }
