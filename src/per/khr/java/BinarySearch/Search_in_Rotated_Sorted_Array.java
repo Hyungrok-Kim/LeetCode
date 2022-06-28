@@ -16,10 +16,6 @@ public class Search_in_Rotated_Sorted_Array {
         int maxNumIdx = 0;
 
         for (int i = 0; i < nums.length; ++i) {
-//            if (maxNum < nums[i]) {
-//                maxNum = nums[i];
-//                maxNumIdx = i;
-//            }
 
             if (maxNum > nums[i]) {
                 rotated = true;
@@ -31,19 +27,13 @@ public class Search_in_Rotated_Sorted_Array {
         }
         int startIdx = 0, endIdx = nums.length - 1, zeroLocation = Integer.MAX_VALUE, result = 0;
 
-//        if (nums[0] == target) return 0;
-//        if (nums[maxNumIdx] == target) return maxNumIdx;
-
-//        if (nums[maxNumIdx + 1] == target) return maxNumIdx + 1;
-//        if (nums[nums.length - 1] == target) return nums.length - 1;
-
         if (rotated) {
             if (nums[0] <= target && nums[maxNumIdx] >= target) endIdx = maxNumIdx;
             else if (nums[nums.length - 1] >= target) startIdx = maxNumIdx + 1;
             else return -1;
         }
 
-        while (endIdx - startIdx != 0) {
+        while ((endIdx - startIdx != 1 && endIdx - startIdx != 0)) {
             int targetIdx = (startIdx + endIdx) / 2;
 
             if (nums[targetIdx] == target) {
