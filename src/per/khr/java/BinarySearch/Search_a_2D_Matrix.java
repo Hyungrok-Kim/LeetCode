@@ -1,5 +1,10 @@
 package per.khr.java.BinarySearch;
 
+/**
+ * 한 블록씩 검사하면서
+ * target이 해당 블록의 가장 큰 값보다 작아서 범위에 속한다면
+ * 이분 탐색으로 찾아주자.
+ */
 public class Search_a_2D_Matrix {
     public boolean searchMatrix(int[][] matrix, int target) {
         for (int[] block : matrix) {
