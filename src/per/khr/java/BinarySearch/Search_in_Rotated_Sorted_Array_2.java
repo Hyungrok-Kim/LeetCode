@@ -8,6 +8,9 @@ package per.khr.java.BinarySearch;
  * 하지만 찾는 숫자의 index를 요구한다면?
  */
 public class Search_in_Rotated_Sorted_Array_2 {
+    /**
+     * 4ms
+     */
     //    public boolean search(int[] nums, int target) {
 //        Arrays.sort(nums);
 //        int startIdx = 0, endIdx = nums.length - 1, targetIdx = 0;
@@ -26,12 +29,20 @@ public class Search_in_Rotated_Sorted_Array_2 {
 //
 //        return false;
 //    }
-    public boolean search(int[] nums, int target) {
 
+    /**
+     * 2ms
+     * @param nums
+     * @param target
+     * @return
+     */
+    public boolean search(int[] nums, int target) {
         int before = Integer.MIN_VALUE, zeroIndex = 0;
+        boolean rotated = false;
         for (int i = 0; i < nums.length; ++i) {
             if (before > nums[i]) {
-                zeroIndex = i;
+                zeroIndex = i - 1;
+                rotated = true;
                 break;
             }
 
@@ -39,17 +50,22 @@ public class Search_in_Rotated_Sorted_Array_2 {
             if (before == target) return true;
         }
 
-        int startIdx = 0, endIdx = nums.length - 1, targetIdx = 0;
+        if (rotated) {
+            int startIdx = 0, endIdx = nums.length - 1, targetIdx = 0;
 
-        while (startIdx <= endIdx) {
-            targetIdx = startIdx + (endIdx - startIdx) / 2;
+            if (target >= nums[0] && target <= nums[zeroIndex]) endIdx = zeroIndex;
+            if (target >= nums[zeroIndex + 1] && target <= nums[nums.length - 1]) startIdx = zeroIndex + 1;
 
-            if (nums[targetIdx] == target) {
-                return true;
-            } else if (nums[targetIdx] > target) {
-                endIdx = targetIdx - 1;
-            } else if (nums[targetIdx] < target) {
-                startIdx = targetIdx + 1;
+            while (startIdx <= endIdx) {
+                targetIdx = startIdx + (endIdx - startIdx) / 2;
+
+                if (nums[targetIdx] == target) {
+                    return true;
+                } else if (nums[targetIdx] > target) {
+                    endIdx = targetIdx - 1;
+                } else if (nums[targetIdx] < target) {
+                    startIdx = targetIdx + 1;
+                }
             }
         }
 
