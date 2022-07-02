@@ -9,6 +9,7 @@ package per.khr.java.BinarySearch;
  */
 public class Search_in_Rotated_Sorted_Array_2 {
     /**
+     * 문제풀이 1.
      * 4ms
      */
     //    public boolean search(int[] nums, int target) {
@@ -31,6 +32,7 @@ public class Search_in_Rotated_Sorted_Array_2 {
 //    }
 
     /**
+     * 문제풀이 2.
      * 2ms
      * @param nums
      * @param target
