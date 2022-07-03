@@ -77,13 +77,21 @@ public class Search_in_Rotated_Sorted_Array_2 {
         return false;
     }
 
+    /**
+     * 문제풀이 3.
+     * 1ms
+     * faster than 84.62%
+     * @param nums
+     * @param target
+     * @return
+     */
     public boolean search3(int[] nums, int target) {
         int startIdx = 0, endIdx = nums.length - 1, targetIdx = 0;
 
         while (startIdx <= endIdx) {
             targetIdx = startIdx + (endIdx - startIdx) / 2;
 
-            if (nums[targetIdx] == target) {
+            if (nums[targetIdx] == target || nums[startIdx] == target || nums[endIdx] == target) {
                 return true;
             } else {
                 if (target >= nums[startIdx] && target <= nums[targetIdx]) {
