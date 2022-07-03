@@ -1,5 +1,7 @@
 package per.khr.java.BinarySearch;
 
+import java.util.Arrays;
+
 /**
  * 우선 0의 위치를 찾고 target이 첫번째 인덱스부터 0의 -1 위치까지에 속하는 지
  * 그 다음에 속하는 지를 알아야 한다.
@@ -12,33 +14,34 @@ public class Search_in_Rotated_Sorted_Array_2 {
      * 문제풀이 1.
      * 4ms
      */
-    //    public boolean search(int[] nums, int target) {
-//        Arrays.sort(nums);
-//        int startIdx = 0, endIdx = nums.length - 1, targetIdx = 0;
-//
-//        while (startIdx <= endIdx) {
-//            targetIdx = startIdx + (endIdx - startIdx) / 2;
-//
-//            if (nums[targetIdx] == target) {
-//                return true;
-//            } else if (nums[targetIdx] > target) {
-//                endIdx = targetIdx - 1;
-//            } else if (nums[targetIdx] < target) {
-//                startIdx = targetIdx + 1;
-//            }
-//        }
-//
-//        return false;
-//    }
+    public boolean search(int[] nums, int target) {
+        Arrays.sort(nums);
+        int startIdx = 0, endIdx = nums.length - 1, targetIdx = 0;
+
+        while (startIdx <= endIdx) {
+            targetIdx = startIdx + (endIdx - startIdx) / 2;
+
+            if (nums[targetIdx] == target) {
+                return true;
+            } else if (nums[targetIdx] > target) {
+                endIdx = targetIdx - 1;
+            } else if (nums[targetIdx] < target) {
+                startIdx = targetIdx + 1;
+            }
+        }
+
+        return false;
+    }
 
     /**
      * 문제풀이 2.
      * 2ms
+     *
      * @param nums
      * @param target
      * @return
      */
-    public boolean search(int[] nums, int target) {
+    public boolean search2(int[] nums, int target) {
         int before = Integer.MIN_VALUE, zeroIndex = 0;
         boolean rotated = false;
         for (int i = 0; i < nums.length; ++i) {
@@ -71,6 +74,29 @@ public class Search_in_Rotated_Sorted_Array_2 {
             }
         }
 
+        return false;
+    }
+
+    public boolean search3(int[] nums, int target) {
+        int startIdx = 0, endIdx = nums.length - 1, targetIdx = 0;
+
+        while (startIdx <= endIdx) {
+            targetIdx = startIdx + (endIdx - startIdx) / 2;
+
+            if (nums[targetIdx] == target) {
+                return true;
+            } else {
+                if (target >= nums[startIdx] && target <= nums[targetIdx]) {
+                    if (nums[targetIdx] > target) {
+                        endIdx = targetIdx - 1;
+                    } else if (nums[target] < target) {
+                        startIdx = targetIdx + 1;
+                    }
+                } else if (target >= nums[targetIdx] && target <= nums[endIdx]) {
+
+                }
+            }
+        }
         return false;
     }
 }
