@@ -87,16 +87,28 @@ public class Search_in_Rotated_Sorted_Array_2 {
                 return true;
             } else {
                 if (target >= nums[startIdx] && target <= nums[targetIdx]) {
+                    endIdx = targetIdx - 1;
+
                     if (nums[targetIdx] > target) {
                         endIdx = targetIdx - 1;
-                    } else if (nums[target] < target) {
+                    } else if (nums[targetIdx] < target) {
                         startIdx = targetIdx + 1;
                     }
+                    
                 } else if (target >= nums[targetIdx] && target <= nums[endIdx]) {
+                    startIdx = targetIdx + 1;
 
+                    if (nums[targetIdx] > target) {
+                        endIdx = targetIdx - 1;
+                    } else if (nums[targetIdx] < target) {
+                        startIdx = targetIdx + 1;
+                    }
+                } else {
+                    startIdx++;
                 }
             }
         }
+
         return false;
     }
 }
