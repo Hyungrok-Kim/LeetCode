@@ -6,6 +6,13 @@ package per.khr.java.BinarySearch;
  * 이전의 값과 비교 후 값이 작아지는 지점을 찾아서 return하면 된다.
  */
 public class Find_Minimum_in_Rotated_Sorted_Array {
+    /**
+     * 0ms or 1ms
+     * 1ms일 땐 faster than 42.06%
+     * 0ms일 땐 faster than 100%
+     * @param nums
+     * @return
+     */
     public int findMin(int[] nums) {
         int startIdx = 0, endIdx = nums.length - 1, targetIdx = 0;
 
