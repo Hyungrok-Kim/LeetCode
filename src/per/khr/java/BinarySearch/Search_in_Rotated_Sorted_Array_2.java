@@ -119,4 +119,42 @@ public class Search_in_Rotated_Sorted_Array_2 {
 
         return false;
     }
+
+    /**
+     * 문제풀이 4.
+     * 1ms
+     * faster than 84.81%
+     * @param nums
+     * @param target
+     * @return
+     */
+    public boolean search4(int[] nums, int target) {
+        int startIdx = 0, endIdx = nums.length - 1, targetIdx = 0;
+
+        while (startIdx <= endIdx) {
+            targetIdx = startIdx + (endIdx - startIdx) / 2;
+
+            if (nums[targetIdx] == target) {
+                return true;
+            }
+
+            if (nums[startIdx] < nums[targetIdx]) {
+                if (nums[startIdx] <= target && target < nums[targetIdx]) {
+                    endIdx = targetIdx - 1;
+                } else {
+                    startIdx = targetIdx + 1;
+                }
+            } else if (nums[startIdx] > nums[targetIdx]) {
+                if (nums[targetIdx] < target && target <= nums[endIdx]) {
+                    startIdx = targetIdx + 1;
+                } else {
+                    endIdx = targetIdx - 1;
+                }
+            } else {
+                startIdx++;
+            }
+        }
+
+        return false;
+    }
 }
