@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/src/per/khr/java/BFSDFS/PathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/PathSumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/LeetCode/input_Array_Is_SortedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/LeetCode/input_Array_Is_SortedTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/per/khr/java/BinarySearch/input_Array_Is_Sorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/khr/java/BinarySearch/input_Array_Is_Sorted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/input_Array_Is_SortedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/input_Array_Is_SortedTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <recent name="per.khr.main.hash" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.input_Array_Is_SortedTest.testTwoSum">
+  <component name="RunManager" selected="JUnit.PathSumTest">
     <configuration name="Find_Minimum_in_Rotated_Sorted_ArrayTest.testFindMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
@@ -97,12 +96,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Search_in_Rotated_Sorted_Array_2Test.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PathSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Search_in_Rotated_Sorted_Array_2Test" />
-      <option name="METHOD_NAME" value="testSearch" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="PathSumTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,19 +116,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.PathSumTest" />
       <item itemvalue="JUnit.input_Array_Is_SortedTest.testTwoSum" />
       <item itemvalue="JUnit.Find_Minimum_in_Rotated_Sorted_Array_2Test.testFindMin" />
       <item itemvalue="JUnit.Find_Peak_ElementTest" />
       <item itemvalue="JUnit.Find_Minimum_in_Rotated_Sorted_ArrayTest.testFindMin" />
-      <item itemvalue="JUnit.Search_in_Rotated_Sorted_Array_2Test.testSearch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PathSumTest" />
         <item itemvalue="JUnit.input_Array_Is_SortedTest.testTwoSum" />
         <item itemvalue="JUnit.Find_Peak_ElementTest" />
         <item itemvalue="JUnit.Find_Minimum_in_Rotated_Sorted_Array_2Test.testFindMin" />
         <item itemvalue="JUnit.Find_Minimum_in_Rotated_Sorted_ArrayTest.testFindMin" />
-        <item itemvalue="JUnit.Search_in_Rotated_Sorted_Array_2Test.testSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -406,8 +404,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/per/khr/java/BinarySearch/input_Array_Is_Sorted.java</url>
-          <line>41</line>
+          <line>48</line>
           <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/PathSumTest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/khr/java/BFSDFS/PathSum.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
