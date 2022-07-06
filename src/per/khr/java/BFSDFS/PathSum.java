@@ -2,38 +2,35 @@ package per.khr.java.BFSDFS;
 
 import per.khr.java.vo.TreeNode;
 
-import java.util.HashSet;
-import java.util.Iterator;
-
 public class PathSum {
-    HashSet<Integer> hs = new HashSet<>();
-
-    public void recursive(TreeNode target, int sum) {
+    public boolean recursive(TreeNode target, int sum, int targetSum) {
         if (target.left == null && target.right == null) {
-            hs.add(sum);
-            return;
+            if (sum == targetSum) return true;
+            else return false;
         }
 
-        if (target.left != null) recursive(target.left, sum + target.left.val);
-        if (target.right != null) recursive(target.right, sum + target.right.val);
+        if (target.left != null && target.right != null )
+            return recursive(target.left, sum + target.left.val, targetSum) || recursive(target.right, sum + target.right.val, targetSum);
+
+        if (target.left != null) return recursive(target.left, sum + target.left.val, targetSum);
+        else if (target.right != null) return recursive(target.right, sum + target.right.val, targetSum);
+
+        return false;
     }
 
     /**
-     * 4ms
-     * faster than 5.65%
+     * 1ms
+     * faster than 58.76%
+     * @param root
+     * @param targetSum
+     * @return
      */
     public boolean hasPathSum(TreeNode root, int targetSum) {
         if (root == null) return false;
 
-        recursive(root, root.val);
+        recursive(root, root.val, targetSum);
 
-        Iterator i = hs.iterator();
-
-        while (i.hasNext()) {
-            if ((int) i.next() == targetSum) return true;
-        }
-
-        return false;
+        return recursive(root, root.val, targetSum);
     }
 
     /**
