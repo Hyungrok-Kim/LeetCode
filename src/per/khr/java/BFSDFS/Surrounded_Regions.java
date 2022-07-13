@@ -11,6 +11,11 @@ package per.khr.java.BFSDFS;
 public class Surrounded_Regions {
     private static final int[][] checks = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
 
+    /**
+     * 2ms
+     * faster than 86.44%
+     * @param board
+     */
     public void solve(char[][] board) {
         if (board.length == 0) return;
 
