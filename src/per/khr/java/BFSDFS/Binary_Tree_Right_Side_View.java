@@ -11,28 +11,30 @@ import java.util.List;
  * 오른쪽을 확인 후 Null이면 왼쪽이겠지?
  */
 public class Binary_Tree_Right_Side_View {
-    private static ArrayList<Integer> result = new ArrayList<>();
-
     /**
      * dfs 방식으로 탐색하면 비효율적일듯..?
      * 그래서 bfs
      */
-    public void bfs(TreeNode node) {
-        result.add(node.val);
+    public void bfs(TreeNode node, ArrayList<Integer> result, int depth) {
+        if (depth > result.size()) result.add(node.val);
 
-        if (node.right != null) bfs(node.right);
-        else if (node.left != null) bfs(node.left);
+        if (node.right != null) bfs(node.right, result, depth + 1);
+        if (node.left != null) bfs(node.left, result, depth + 1);
 
         return;
     }
 
     public List<Integer> rightSideView(TreeNode root) {
+        ArrayList<Integer> result = new ArrayList<>();
+
         if (root == null) return result;
         else result.add(root.val);
 
+        int depth = 1;
+
         // 기본적으로 다음 노드가 있을 때 보내야 해.
-        if (root.right != null) bfs(root.right);
-        else if (root.left != null) bfs(root.left);
+        if (root.right != null) bfs(root.right, result, depth + 1);
+        if (root.left != null) bfs(root.left, result, depth + 1);
 
         return result;
     }
