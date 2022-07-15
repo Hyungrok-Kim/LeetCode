@@ -7,8 +7,7 @@ import java.util.List;
 
 /**
  * 각각의 Tree depth마다 가장 오른쪽에 있는 값을 List에 담아야 한다.
- * 재귀로 풀어야겠고
- * 오른쪽을 확인 후 Null이면 왼쪽이겠지?
+ * 재귀로 풀어야겠고 오른쪽을 확인 후 Null이면 왼쪽이겠지?
  */
 public class Binary_Tree_Right_Side_View {
     /**

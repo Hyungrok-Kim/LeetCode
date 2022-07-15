@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="Default Changelist">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/per/khr/java/BFSDFS/Binary_Tree_Right_Side_View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/khr/java/BFSDFS/Binary_Tree_Right_Side_View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Binary_Tree_Right_Side_ViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Binary_Tree_Right_Side_ViewTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="Default Changelist" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
