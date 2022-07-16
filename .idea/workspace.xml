@@ -415,12 +415,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/per/khr/java/BFSDFS/Binary_Tree_Right_Side_View.java</url>
-          <line>29</line>
+          <line>28</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/per/khr/java/BFSDFS/Binary_Tree_Right_Side_View.java</url>
-          <line>18</line>
+          <line>17</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
       </breakpoints>

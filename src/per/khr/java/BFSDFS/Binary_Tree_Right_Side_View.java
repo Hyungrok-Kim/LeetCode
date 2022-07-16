@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class Binary_Tree_Right_Side_View {
     /**
-     * dfs 방식으로 탐색하면 비효율적일듯..?
+     * dfs 방식으로 탐색하게 되면 모든 노드를 탐색해서 가장 깊은 depth가 뭔 지 파악해야하기 때문에 비효율적일 듯 하다.
      * 그래서 bfs
      */
     public void bfs(TreeNode node, ArrayList<Integer> result, int depth) {
