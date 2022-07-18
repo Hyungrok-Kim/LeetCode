@@ -11,7 +11,8 @@ public class Number_of_Islands {
         grid[x][y] = '*';
 
         for (int[] needVisit : needVisits) {
-            if (0 < x + needVisit[0] && x + needVisit[0] < grid.length && 0 < y + needVisit[1] && y + needVisit[1] < grid[x].length)
+            if (0 <= x + needVisit[0] && x + needVisit[0] < grid.length && 0 <= y + needVisit[1] && y + needVisit[1] < grid[x].length
+                    && grid[x + needVisit[0]][y + needVisit[1]] == '1')
                 visitMarked(x + needVisit[0], y + needVisit[1], grid);
         }
     }
