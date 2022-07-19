@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="Default Changelist" />
+    <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/src/test/Serialize_and_Deserialize_Binary_TreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/per/khr/java/BFSDFS/Serialize_and_Deserialize_Binary_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/khr/java/BFSDFS/Serialize_and_Deserialize_Binary_Tree.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,8 +20,8 @@
         <option value="JUnit5 Test Class" />
         <option value="FxmlFile" />
         <option value="JUnit4 Test Class" />
-        <option value="JUnit3 Test Class" />
         <option value="Class" />
+        <option value="JUnit3 Test Class" />
       </list>
     </option>
   </component>
@@ -63,22 +67,13 @@
       <recent name="per.khr.main.hash" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Number_of_IslandsTest.testNumIslands">
+  <component name="RunManager" selected="JUnit.Serialize_and_Deserialize_Binary_TreeTest.testSerialize">
     <configuration name="Binary_Tree_Right_Side_ViewTest.testRightSideView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Binary_Tree_Right_Side_ViewTest" />
       <option name="METHOD_NAME" value="testRightSideView" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Find_Peak_ElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Find_Peak_ElementTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,6 +97,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Serialize_and_Deserialize_Binary_TreeTest.testSerialize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Serialize_and_Deserialize_Binary_TreeTest" />
+      <option name="METHOD_NAME" value="testSerialize" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="input_Array_Is_SortedTest.testTwoSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
@@ -113,19 +118,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.Serialize_and_Deserialize_Binary_TreeTest.testSerialize" />
       <item itemvalue="JUnit.Number_of_IslandsTest.testNumIslands" />
       <item itemvalue="JUnit.Binary_Tree_Right_Side_ViewTest.testRightSideView" />
       <item itemvalue="JUnit.PathSumTest" />
       <item itemvalue="JUnit.input_Array_Is_SortedTest.testTwoSum" />
-      <item itemvalue="JUnit.Find_Peak_ElementTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Serialize_and_Deserialize_Binary_TreeTest.testSerialize" />
         <item itemvalue="JUnit.Number_of_IslandsTest.testNumIslands" />
         <item itemvalue="JUnit.Binary_Tree_Right_Side_ViewTest.testRightSideView" />
         <item itemvalue="JUnit.PathSumTest" />
         <item itemvalue="JUnit.input_Array_Is_SortedTest.testTwoSum" />
-        <item itemvalue="JUnit.Find_Peak_ElementTest" />
       </list>
     </recent_temporary>
   </component>
@@ -433,6 +438,21 @@
           <url>file://$PROJECT_DIR$/src/per/khr/java/BFSDFS/Number_of_Islands.java</url>
           <line>20</line>
           <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/Serialize_and_Deserialize_Binary_TreeTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/Serialize_and_Deserialize_Binary_TreeTest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/khr/java/BFSDFS/Serialize_and_Deserialize_Binary_Tree.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="82" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
