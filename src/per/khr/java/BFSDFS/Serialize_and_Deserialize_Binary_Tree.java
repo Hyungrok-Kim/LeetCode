@@ -40,8 +40,10 @@ public class Serialize_and_Deserialize_Binary_Tree {
             else break;
         }
 
-        return String.join(",", visited);
+//        return String.join(",", visited);
+        return visited.toString();
     }
+
 
     public TreeNode deserialize(String data) {
         if (data.isBlank()) return null;
@@ -50,8 +52,10 @@ public class Serialize_and_Deserialize_Binary_Tree {
         Queue<String> needVisit = new LinkedList<>();
         Queue<TreeNode> targetList = new LinkedList<>();
 
-        for (String node : nodeArr) {
-            needVisit.offer(node);
+        for (int i = 0, limit = nodeArr.length; i < limit; ++i) {
+            if (i == 0) needVisit.offer(nodeArr[i].substring(1));
+            else if (i == limit - 1) needVisit.offer(nodeArr[limit - 1].substring(0, 1));
+            else needVisit.offer(nodeArr[i]);
         }
 
         TreeNode target = null;
