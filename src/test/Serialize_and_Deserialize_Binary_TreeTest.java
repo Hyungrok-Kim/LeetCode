@@ -12,7 +12,7 @@ public class Serialize_and_Deserialize_Binary_TreeTest extends TestCase {
         TreeNode param = new TreeNode(1, new TreeNode(2), new TreeNode(3, new TreeNode(4), new TreeNode(5)));
         Serialize_and_Deserialize_Binary_Tree sadbt = new Serialize_and_Deserialize_Binary_Tree();
 
-        assertThat(sadbt.serialize(param)).isEqualTo("1,2,3,null,null,4,5");
+        assertThat(sadbt.serialize(param)).isEqualTo("[1,2,3,null,null,4,5]");
     }
 
     public void testDeserialize() {
