@@ -40,10 +40,42 @@ public class Serialize_and_Deserialize_Binary_Tree {
             else break;
         }
 
-        return visited.toString();
+        return String.join(",", visited);
     }
 
     public TreeNode deserialize(String data) {
-        return null;
+        if (data.isBlank()) return null;
+
+        String[] nodeArr = data.split(",");
+        Queue<String> needVisit = new LinkedList<>();
+        Queue<TreeNode> targetList = new LinkedList<>();
+
+        for (String node : nodeArr) {
+            needVisit.offer(node);
+        }
+
+        TreeNode target = null;
+
+        TreeNode root = new TreeNode(Integer.parseInt(needVisit.poll()));
+        targetList.offer(root);
+        while (!needVisit.isEmpty()) {
+            target = targetList.poll();
+
+            String left = needVisit.poll();
+
+            if (!left.equals("null")) {
+                target.left = new TreeNode(Integer.parseInt(left));
+                targetList.offer(target.left);
+            }
+
+            String right = needVisit.poll();
+
+            if (!right.equals("null")) {
+                target.right = new TreeNode(Integer.parseInt(right));
+                targetList.offer(target.right);
+            }
+        }
+
+        return target;
     }
 }
