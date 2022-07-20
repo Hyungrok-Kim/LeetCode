@@ -48,38 +48,46 @@ public class Serialize_and_Deserialize_Binary_Tree {
     public TreeNode deserialize(String data) {
         if (data.isBlank()) return null;
 
+        data = data.replace("[", "");
+        data = data.replace("]", "");
+
+        if (data.isBlank()) return null;
+
         String[] nodeArr = data.split(",");
         Queue<String> needVisit = new LinkedList<>();
         Queue<TreeNode> targetList = new LinkedList<>();
 
         for (int i = 0, limit = nodeArr.length; i < limit; ++i) {
-            if (i == 0) needVisit.offer(nodeArr[i].substring(1));
-            else if (i == limit - 1) needVisit.offer(nodeArr[limit - 1].substring(0, 1));
-            else needVisit.offer(nodeArr[i]);
+            needVisit.offer(nodeArr[i].strip());
         }
 
         TreeNode target = null;
+        TreeNode resultTreeNode = new TreeNode(Integer.parseInt(needVisit.poll()));
 
-        TreeNode root = new TreeNode(Integer.parseInt(needVisit.poll()));
-        targetList.offer(root);
+        targetList.offer(resultTreeNode);
+
         while (!needVisit.isEmpty()) {
             target = targetList.poll();
 
             String left = needVisit.poll();
 
-            if (!left.equals("null")) {
-                target.left = new TreeNode(Integer.parseInt(left));
-                targetList.offer(target.left);
+            if (left != null) {
+                if (!left.equals("null")) {
+                    target.left = new TreeNode(Integer.parseInt(left));
+                    targetList.offer(target.left);
+                }
             }
 
             String right = needVisit.poll();
 
-            if (!right.equals("null")) {
-                target.right = new TreeNode(Integer.parseInt(right));
-                targetList.offer(target.right);
+            if (right != null) {
+                if (!right.equals("null")) {
+                    target.right = new TreeNode(Integer.parseInt(right));
+                    targetList.offer(target.right);
+                }
             }
         }
 
-        return target;
+        return resultTreeNode;
     }
 }
