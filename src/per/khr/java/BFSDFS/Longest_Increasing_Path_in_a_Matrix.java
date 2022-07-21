@@ -1,18 +1,16 @@
 package per.khr.java.BFSDFS;
 
-import java.util.Collections;
-import java.util.PriorityQueue;
+import java.util.TreeSet;
 
 /**
  * 낮은 수에서 높은 수로만 갈 수 있는데 가장 많이 가야 한다.
  */
 public class Longest_Increasing_Path_in_a_Matrix {
     private static final int[][] moves = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
-    private static final PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
 
-    public void dfs(int i, int j, int[][] matrix, int moveCount) {
+    public void dfs(int i, int j, int[][] matrix, int moveCount, TreeSet<Integer> ts) {
         int target = matrix[i][j];
-        matrix[i][j] = 0;
+//        matrix[i][j] = 0;
 
         for (int[] move : moves) {
             int newI = i + move[0];
@@ -23,10 +21,9 @@ public class Longest_Increasing_Path_in_a_Matrix {
                     target < matrix[newI][newJ] &&
                     matrix[newI][newJ] != 0
             ) {
-                dfs(newI, newJ, matrix, moveCount + 1);
+                dfs(newI, newJ, matrix, moveCount + 1, ts);
             } else {
-                pq.add(moveCount);
-                return ;
+                ts.add(moveCount);
             }
         }
     }
@@ -34,12 +31,15 @@ public class Longest_Increasing_Path_in_a_Matrix {
     public int longestIncreasingPath(int[][] matrix) {
         if (matrix.length == 0 || matrix[0].length == 0) return 0;
 
+//        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
+        TreeSet<Integer> ts = new TreeSet<>();
+
         for (int i = 0, iLimit = matrix.length; i < iLimit; ++i) {
             for (int j = 0, jLimit = matrix[0].length; j < jLimit; ++j) {
-                dfs(i, j, matrix, 1);
+                dfs(i, j, matrix, 1, ts);
             }
         }
 
-        return pq.poll();
+        return ts.pollLast();
     }
 }
