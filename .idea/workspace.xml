@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/BFSDFS/Serialize_and_Deserialize_Binary_Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/BFSDFS/Serialize_and_Deserialize_Binary_Tree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/LeetCode/Serialize_and_Deserialize_Binary_TreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/LeetCode/Serialize_and_Deserialize_Binary_TreeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/per/khr/java/BFSDFS/Serialize_and_Deserialize_Binary_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/khr/java/BFSDFS/Serialize_and_Deserialize_Binary_Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Serialize_and_Deserialize_Binary_TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Serialize_and_Deserialize_Binary_TreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,11 +116,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.Binary_Tree_Right_Side_ViewTest.testRightSideView" />
+      <item itemvalue="JUnit.Number_of_IslandsTest.testNumIslands" />
+      <item itemvalue="JUnit.PathSumTest" />
       <item itemvalue="JUnit.Serialize_and_Deserialize_Binary_TreeTest" />
       <item itemvalue="JUnit.Serialize_and_Deserialize_Binary_TreeTest.testSerialize" />
-      <item itemvalue="JUnit.Number_of_IslandsTest.testNumIslands" />
-      <item itemvalue="JUnit.Binary_Tree_Right_Side_ViewTest.testRightSideView" />
-      <item itemvalue="JUnit.PathSumTest" />
     </list>
     <recent_temporary>
       <list>
