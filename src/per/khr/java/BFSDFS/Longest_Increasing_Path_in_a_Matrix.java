@@ -8,6 +8,7 @@ import java.util.TreeSet;
  */
 public class Longest_Increasing_Path_in_a_Matrix {
     private static final int[][] moves = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+
     public void dfs(int i, int j, int[][] matrix, int moveCount, TreeSet<Integer> ts) {
         int target = matrix[i][j];
 //        matrix[i][j] = 0;
@@ -27,6 +28,7 @@ public class Longest_Increasing_Path_in_a_Matrix {
             }
         }
     }
+
     public int longestIncreasingPath(int[][] matrix) {
         if (matrix.length == 0 || matrix[0].length == 0) return 0;
 
