@@ -32,7 +32,6 @@ public class Longest_Increasing_Path_in_a_Matrix {
     public int longestIncreasingPath(int[][] matrix) {
         if (matrix.length == 0 || matrix[0].length == 0) return 0;
 
-//        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
         TreeSet<Integer> ts = new TreeSet<>();
 
         for (int i = 0, iLimit = matrix.length; i < iLimit; ++i) {
