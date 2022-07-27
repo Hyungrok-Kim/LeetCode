@@ -7,7 +7,7 @@ import java.util.TreeSet;
  * 이렇게 풀면 모든 경우의 수를 다 보기 때문에 시간복잡도를 통과할 수 없음..
  */
 public class Longest_Increasing_Path_in_a_Matrix {
-    private static final int[][] moves = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+    private final int[][] moves = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
 
     public void dfs(int i, int j, int[][] matrix, int moveCount, TreeSet<Integer> ts) {
         int target = matrix[i][j];
