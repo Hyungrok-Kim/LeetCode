@@ -4,7 +4,7 @@ import java.util.TreeSet;
 
 /**
  * 낮은 수에서 높은 수로만 갈 수 있는데 가장 많이 가야 한다.
- * 이렇게 풀면 모든 경우의 수를 다 보기 때문에 시간복잡도를 통과할 수 없음..
+ * 이렇게 풀면 모든 경우의 수를 다 보기 때문에 정확도는 통과하지만 시간 복잡도를 통과할 수 없음.
  */
 public class Longest_Increasing_Path_in_a_Matrix {
     private final int[][] moves = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
