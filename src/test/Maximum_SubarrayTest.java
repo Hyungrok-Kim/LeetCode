@@ -1,5 +1,5 @@
 import org.junit.Test;
-import per.khr.java.Else.Maximum_Subarray;
+import per.khr.java.DynamicProgramming.Maximum_Subarray;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

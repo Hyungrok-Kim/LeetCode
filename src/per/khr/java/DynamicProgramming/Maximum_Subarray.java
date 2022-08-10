@@ -1,4 +1,4 @@
-package per.khr.java.Else;
+package per.khr.java.DynamicProgramming;
 
 // O(n) 풀이
 // 카데인 알고리즘
