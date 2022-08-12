@@ -8,6 +8,12 @@ import java.util.List;
  * 성능과 관련된 문제 && 이전 배열의 값을 활용 -> DP
  */
 public class Pascals_Triangle {
+    /**
+     * 1ms
+     * faster than 78%
+     * @param numRows
+     * @return
+     */
     public List<List<Integer>> generate(int numRows) {
         if (numRows == 0) return new ArrayList<>();
 
