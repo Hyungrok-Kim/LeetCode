@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/src/test/per/khr/java/DynamicProgramming/Pascals_Triangle2Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/DynamicProgramming/Pascals_Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/DynamicProgramming/Pascals_Triangle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/per/khr/java/DynamicProgramming/Pascals_Triangle2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/khr/java/DynamicProgramming/Pascals_Triangle2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +21,8 @@
         <option value="JUnit5 Test Class" />
         <option value="FxmlFile" />
         <option value="JUnit4 Test Class" />
-        <option value="JUnit3 Test Class" />
         <option value="Class" />
+        <option value="JUnit3 Test Class" />
       </list>
     </option>
   </component>
@@ -60,13 +62,14 @@
       <recent name="hash" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="per.khr.java.DynamicProgramming" />
       <recent name="" />
       <recent name="src.test" />
       <recent name="per.khr.java.hash" />
       <recent name="per.khr.main.hash" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Pascals_TriangleTest.testGenerate">
+  <component name="RunManager" selected="JUnit.Pascals_Triangle2Test.testGetRow">
     <configuration name="Longest_Increasing_Path_in_a_MatrixTest.testLongestIncreasingPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
@@ -77,11 +80,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Number_of_IslandsTest.testNumIslands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Pascals_Triangle2Test.testGetRow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Number_of_IslandsTest" />
-      <option name="METHOD_NAME" value="testNumIslands" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="per.khr.java.DynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="per.khr.java.DynamicProgramming" />
+      <option name="MAIN_CLASS_NAME" value="per.khr.java.DynamicProgramming.Pascals_Triangle2Test" />
+      <option name="METHOD_NAME" value="testGetRow" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,19 +127,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.Pascals_Triangle2Test.testGetRow" />
       <item itemvalue="JUnit.Pascals_TriangleTest.testGenerate" />
       <item itemvalue="JUnit.Longest_Increasing_Path_in_a_MatrixTest.testLongestIncreasingPath" />
       <item itemvalue="JUnit.Serialize_and_Deserialize_Binary_TreeTest" />
       <item itemvalue="JUnit.Serialize_and_Deserialize_Binary_TreeTest.testSerialize" />
-      <item itemvalue="JUnit.Number_of_IslandsTest.testNumIslands" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Pascals_Triangle2Test.testGetRow" />
         <item itemvalue="JUnit.Pascals_TriangleTest.testGenerate" />
         <item itemvalue="JUnit.Longest_Increasing_Path_in_a_MatrixTest.testLongestIncreasingPath" />
         <item itemvalue="JUnit.Serialize_and_Deserialize_Binary_TreeTest" />
         <item itemvalue="JUnit.Serialize_and_Deserialize_Binary_TreeTest.testSerialize" />
-        <item itemvalue="JUnit.Number_of_IslandsTest.testNumIslands" />
       </list>
     </recent_temporary>
   </component>
@@ -473,6 +482,16 @@
           <url>file://$PROJECT_DIR$/src/test/Pascals_TriangleTest.java</url>
           <line>12</line>
           <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/khr/java/DynamicProgramming/Pascals_Triangle2.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/per/khr/java/DynamicProgramming/Pascals_Triangle2Test.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="97" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
