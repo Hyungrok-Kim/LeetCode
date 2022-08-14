@@ -11,6 +11,12 @@ import java.util.List;
 public class Pascals_Triangle2 {
     List<List<Integer>> triangle = new ArrayList<>();
 
+    /**
+     * 2ms
+     * faster than 58.83%
+     * @param rowIndex
+     * @return
+     */
     public List<Integer> getRow(int rowIndex) {
         if (triangle.isEmpty()) {
             List<Integer> startingSetUp = Arrays.asList(1);
