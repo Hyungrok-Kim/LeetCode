@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="Default Changelist" />
+    <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/src/per/khr/java/DynamicProgramming/Best_Time_to_Buy_and_Sell_Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Best_Time_to_Buy_and_Sell_StockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +68,17 @@
       <recent name="per.khr.main.hash" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Longest_Palindromic_SubstringTest.testLongestPalindrome">
+  <component name="RunManager" selected="JUnit.Best_Time_to_Buy_and_Sell_StockTest.testMaxProfit">
+    <configuration name="Best_Time_to_Buy_and_Sell_StockTest.testMaxProfit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Best_Time_to_Buy_and_Sell_StockTest" />
+      <option name="METHOD_NAME" value="testMaxProfit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Longest_Increasing_Path_in_a_MatrixTest.testLongestIncreasingPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
@@ -111,30 +125,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Serialize_and_Deserialize_Binary_TreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Serialize_and_Deserialize_Binary_TreeTest" />
-      <option name="METHOD_NAME" value="testSerialize" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="JUnit.Best_Time_to_Buy_and_Sell_StockTest.testMaxProfit" />
       <item itemvalue="JUnit.Longest_Palindromic_SubstringTest.testLongestPalindrome" />
       <item itemvalue="JUnit.Pascals_Triangle2Test.testGetRow" />
       <item itemvalue="JUnit.Pascals_TriangleTest.testGenerate" />
       <item itemvalue="JUnit.Longest_Increasing_Path_in_a_MatrixTest.testLongestIncreasingPath" />
-      <item itemvalue="JUnit.Serialize_and_Deserialize_Binary_TreeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Best_Time_to_Buy_and_Sell_StockTest.testMaxProfit" />
         <item itemvalue="JUnit.Longest_Palindromic_SubstringTest.testLongestPalindrome" />
         <item itemvalue="JUnit.Pascals_Triangle2Test.testGetRow" />
         <item itemvalue="JUnit.Pascals_TriangleTest.testGenerate" />
         <item itemvalue="JUnit.Longest_Increasing_Path_in_a_MatrixTest.testLongestIncreasingPath" />
-        <item itemvalue="JUnit.Serialize_and_Deserialize_Binary_TreeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -489,18 +493,13 @@
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/Longest_Palindromic_SubstringTest.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="98" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/per/khr/java/DynamicProgramming/Longest_Palindromic_Substring.java</url>
-          <line>17</line>
+          <line>18</line>
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/per/khr/java/DynamicProgramming/Longest_Palindromic_Substring.java</url>
-          <line>23</line>
+          <line>24</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
       </breakpoints>
