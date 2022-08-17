@@ -9,7 +9,8 @@ public class Longest_Palindromic_Substring {
 
     /**
      * 아무래도 가장 긴 Palindromic한 문자열은 s 그대로가 될 수 있겠다.
-     * s를 쪼개서 만들 수 있는 모든 경우의 수 중에 가장 length가 긴 문자열을 찾으면 될까?
+     * s를 쪼개서 만들 수 있는 모든 경우의 수 중에 가장 length가 긴 문자열을 찾게 되면 완전 탐색이 되기 때문에
+     * 시간복잡도를 통과할 수 없음.
      *
      * @param s
      * @return

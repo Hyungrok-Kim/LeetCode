@@ -8,9 +8,7 @@ public class Longest_Palindromic_SubstringTest extends TestCase {
 
     @Test
     public void testLongestPalindrome() {
-        Longest_Palindromic_Substring lps = new Longest_Palindromic_Substring();
-
-        assertThat(lps.longestPalindrome("babad")).isEqualTo("bab");
-        assertThat(lps.longestPalindrome("cbbd")).isEqualTo("bb");
+        assertThat(new Longest_Palindromic_Substring().longestPalindrome("babad")).isEqualTo("bab");
+        assertThat(new Longest_Palindromic_Substring().longestPalindrome("cbbd")).isEqualTo("bb");
     }
 }
