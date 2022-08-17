@@ -5,9 +5,34 @@ package per.khr.java.DynamicProgramming;
  * String s를 Parameter로 받아 가장 긴 Palindromic한 문자열을 return해주면 됨.
  */
 public class Longest_Palindromic_Substring {
+    String result = "";
+
+    /**
+     * 아무래도 가장 긴 Palindromic한 문자열은 s 그대로가 될 수 있겠다.
+     * s를 쪼개서 만들 수 있는 모든 경우의 수 중에 가장 length가 긴 문자열을 찾으면 될까?
+     *
+     * @param s
+     * @return
+     */
     public String longestPalindrome(String s) {
+        String[] items = s.split("");
 
+        for (int i = 0, iLimit = items.length; i < iLimit; ++i) {
+            makeNewString(items, i, items[i]);
+        }
 
-        return null;
+        return result;
+    }
+
+    public void makeNewString(String[] items, int idx, String newStr) {
+        if (result.length() < newStr.length()) result = newStr;
+
+        for (int i = idx, iLimit = items.length; i < iLimit; ++i) {
+            makeNewString(items, i, newStr + items[i]);
+        }
+    }
+
+    public boolean palindromicCheck(String newStr) {
+        return false;
     }
 }
