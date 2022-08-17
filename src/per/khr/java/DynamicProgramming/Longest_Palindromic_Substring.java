@@ -25,11 +25,11 @@ public class Longest_Palindromic_Substring {
     }
 
     public void makeNewString(String[] items, int idx, String newStr) {
-        if (result.length() < newStr.length()) result = newStr;
+        if (result.length() < newStr.length() && palindromicCheck(newStr))
+            result = newStr;
 
-        for (int i = idx, iLimit = items.length; i < iLimit; ++i) {
-            makeNewString(items, i, newStr + items[i]);
-        }
+        if (idx < items.length)
+            makeNewString(items, idx + 1, newStr + items[idx + 1]);
     }
 
     public boolean palindromicCheck(String newStr) {
