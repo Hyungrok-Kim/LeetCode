@@ -33,6 +33,11 @@ public class Longest_Palindromic_Substring {
     }
 
     public boolean palindromicCheck(String newStr) {
-        return false;
+        for (int i = 0, iLimit = (newStr.length() / 2); i < iLimit; ++i) {
+            if (newStr.charAt(i) != newStr.charAt(newStr.length() - 1 - i))
+                return false;
+        }
+
+        return true;
     }
 }
