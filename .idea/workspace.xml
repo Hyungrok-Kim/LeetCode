@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/src/test/Longest_Palindromic_SubstringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/DynamicProgramming/Pascals_Triangle2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/DynamicProgramming/Pascals_Triangle2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/DynamicProgramming/Longest_Palindromic_Substring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/DynamicProgramming/Longest_Palindromic_Substring.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/per/khr/java/DynamicProgramming/Longest_Palindromic_Substring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/khr/java/DynamicProgramming/Longest_Palindromic_Substring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,8 +61,8 @@
       <recent name="hash" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="per.khr.java.DynamicProgramming" />
       <recent name="" />
+      <recent name="per.khr.java.DynamicProgramming" />
       <recent name="src.test" />
       <recent name="per.khr.java.hash" />
       <recent name="per.khr.main.hash" />

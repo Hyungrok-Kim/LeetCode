@@ -28,7 +28,7 @@ public class Longest_Palindromic_Substring {
         if (result.length() < newStr.length() && palindromicCheck(newStr))
             result = newStr;
 
-        if (idx < items.length)
+        if (idx < items.length - 1)
             makeNewString(items, idx + 1, newStr + items[idx + 1]);
     }
 
