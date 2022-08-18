@@ -67,7 +67,7 @@
       <recent name="per.khr.main.hash" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Best_Time_to_Buy_and_Sell_StockTest.testMaxProfit">
+  <component name="RunManager" selected="JUnit.Fibonacci_NumberTest.testFib">
     <configuration name="Best_Time_to_Buy_and_Sell_StockTest.testMaxProfit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
@@ -78,11 +78,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Longest_Increasing_Path_in_a_MatrixTest.testLongestIncreasingPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Fibonacci_NumberTest.testFib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Longest_Increasing_Path_in_a_MatrixTest" />
-      <option name="METHOD_NAME" value="testLongestIncreasingPath" />
+      <option name="MAIN_CLASS_NAME" value="Fibonacci_NumberTest" />
+      <option name="METHOD_NAME" value="testFib" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,19 +125,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.Fibonacci_NumberTest.testFib" />
       <item itemvalue="JUnit.Best_Time_to_Buy_and_Sell_StockTest.testMaxProfit" />
       <item itemvalue="JUnit.Longest_Palindromic_SubstringTest.testLongestPalindrome" />
       <item itemvalue="JUnit.Pascals_Triangle2Test.testGetRow" />
       <item itemvalue="JUnit.Pascals_TriangleTest.testGenerate" />
-      <item itemvalue="JUnit.Longest_Increasing_Path_in_a_MatrixTest.testLongestIncreasingPath" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Fibonacci_NumberTest.testFib" />
         <item itemvalue="JUnit.Best_Time_to_Buy_and_Sell_StockTest.testMaxProfit" />
         <item itemvalue="JUnit.Longest_Palindromic_SubstringTest.testLongestPalindrome" />
         <item itemvalue="JUnit.Pascals_Triangle2Test.testGetRow" />
         <item itemvalue="JUnit.Pascals_TriangleTest.testGenerate" />
-        <item itemvalue="JUnit.Longest_Increasing_Path_in_a_MatrixTest.testLongestIncreasingPath" />
       </list>
     </recent_temporary>
   </component>
