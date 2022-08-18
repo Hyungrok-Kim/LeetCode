@@ -9,9 +9,11 @@ public class Plus_One {
 
             if (targetNum < 9) {
                 digits[i] = targetNum + 1;
+
                 return digits;
             } else {
-                if (i == 0) break;
+                if (i == 0)
+                    break;
 
                 digits[i] = 0;
             }
