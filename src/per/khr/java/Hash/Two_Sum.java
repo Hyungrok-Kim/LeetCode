@@ -12,7 +12,8 @@ public class Two_Sum {
             for (; idx2 < nums.length; ++idx2) {
                 result[1] = nums[idx2];
 
-                if (result[0] + result[1] == target) return new int[]{idx - 1, idx2};
+                if (result[0] + result[1] == target)
+                    return new int[]{idx - 1, idx2};
             }
         }
 
