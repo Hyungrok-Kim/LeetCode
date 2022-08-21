@@ -22,6 +22,11 @@ public class Jump_Game {
         return result;
     }
 
+    /**
+     * 미완성.
+     * @param nums
+     * @return
+     */
     public boolean canJump(int[] nums) {
         int location = 0;
 
