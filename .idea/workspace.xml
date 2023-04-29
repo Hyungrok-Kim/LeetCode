@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="Default Changelist">
-      <change beforePath="$PROJECT_DIR$/src/per/khr/java/DynamicProgramming/Jump_Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/khr/java/DynamicProgramming/Jump_Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/khr/java/BruteForce/Remove_Duplicates_From_Sorted_Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Remove_Duplicates_From_Sorted_ArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,16 +19,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="FxmlFile" />
         <option value="JUnit4 Test Class" />
         <option value="JUnit3 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/lib/assertj-core-3.21.0.jar!/org/assertj/core/internal/Objects.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,38 +42,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit3&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
-      <recent name="junit.framework.TestCase" />
       <recent name="" />
+      <recent name="junit.framework.TestCase" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="hash" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="per.khr.java" />
+      <recent name="per.khr.java.BruteForce" />
       <recent name="" />
       <recent name="per.khr.java.DynamicProgramming" />
       <recent name="src.test" />
-      <recent name="per.khr.java.hash" />
-      <recent name="per.khr.main.hash" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Fibonacci_NumberTest.testFib">
+  <component name="RunManager" selected="JUnit.Remove_Duplicates_From_Sorted_ArrayTest.removeDuplicates">
     <configuration name="Best_Time_to_Buy_and_Sell_StockTest.testMaxProfit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
@@ -113,30 +122,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pascals_TriangleTest.testGenerate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Remove_Duplicates_From_Sorted_ArrayTest.removeDuplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Pascals_TriangleTest" />
-      <option name="METHOD_NAME" value="testGenerate" />
+      <option name="MAIN_CLASS_NAME" value="Remove_Duplicates_From_Sorted_ArrayTest" />
+      <option name="METHOD_NAME" value="removeDuplicates" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.Remove_Duplicates_From_Sorted_ArrayTest.removeDuplicates" />
       <item itemvalue="JUnit.Fibonacci_NumberTest.testFib" />
       <item itemvalue="JUnit.Best_Time_to_Buy_and_Sell_StockTest.testMaxProfit" />
       <item itemvalue="JUnit.Longest_Palindromic_SubstringTest.testLongestPalindrome" />
       <item itemvalue="JUnit.Pascals_Triangle2Test.testGetRow" />
-      <item itemvalue="JUnit.Pascals_TriangleTest.testGenerate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Remove_Duplicates_From_Sorted_ArrayTest.removeDuplicates" />
         <item itemvalue="JUnit.Fibonacci_NumberTest.testFib" />
         <item itemvalue="JUnit.Best_Time_to_Buy_and_Sell_StockTest.testMaxProfit" />
         <item itemvalue="JUnit.Longest_Palindromic_SubstringTest.testLongestPalindrome" />
         <item itemvalue="JUnit.Pascals_Triangle2Test.testGetRow" />
-        <item itemvalue="JUnit.Pascals_TriangleTest.testGenerate" />
       </list>
     </recent_temporary>
   </component>
@@ -499,6 +508,11 @@
           <url>file://$PROJECT_DIR$/src/per/khr/java/DynamicProgramming/Longest_Palindromic_Substring.java</url>
           <line>24</line>
           <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/Remove_Duplicates_From_Sorted_ArrayTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="101" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
