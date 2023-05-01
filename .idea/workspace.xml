@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/per/khr/java/BruteForce/Remove_Duplicates_From_Sorted_Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Remove_Duplicates_From_Sorted_ArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/khr/java/BruteForce/Remove_Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Remove_ElementTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/BruteForce/Remove_Duplicates_From_Sorted_Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/BruteForce/Remove_Duplicates_From_Sorted_Array.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,22 +41,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -68,24 +67,14 @@
       <recent name="hash" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
       <recent name="per.khr.java" />
       <recent name="per.khr.java.BruteForce" />
-      <recent name="" />
       <recent name="per.khr.java.DynamicProgramming" />
       <recent name="src.test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Remove_Duplicates_From_Sorted_ArrayTest.removeDuplicates">
-    <configuration name="Best_Time_to_Buy_and_Sell_StockTest.testMaxProfit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Best_Time_to_Buy_and_Sell_StockTest" />
-      <option name="METHOD_NAME" value="testMaxProfit" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Remove_ElementTest.removeElement">
     <configuration name="Fibonacci_NumberTest.testFib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
@@ -132,20 +121,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Remove_ElementTest.removeElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Remove_ElementTest" />
+      <option name="METHOD_NAME" value="removeElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.Remove_Duplicates_From_Sorted_ArrayTest.removeDuplicates" />
+      <item itemvalue="JUnit.Remove_ElementTest.removeElement" />
       <item itemvalue="JUnit.Fibonacci_NumberTest.testFib" />
-      <item itemvalue="JUnit.Best_Time_to_Buy_and_Sell_StockTest.testMaxProfit" />
       <item itemvalue="JUnit.Longest_Palindromic_SubstringTest.testLongestPalindrome" />
       <item itemvalue="JUnit.Pascals_Triangle2Test.testGetRow" />
+      <item itemvalue="JUnit.Remove_Duplicates_From_Sorted_ArrayTest.removeDuplicates" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Remove_ElementTest.removeElement" />
         <item itemvalue="JUnit.Remove_Duplicates_From_Sorted_ArrayTest.removeDuplicates" />
-        <item itemvalue="JUnit.Fibonacci_NumberTest.testFib" />
-        <item itemvalue="JUnit.Best_Time_to_Buy_and_Sell_StockTest.testMaxProfit" />
-        <item itemvalue="JUnit.Longest_Palindromic_SubstringTest.testLongestPalindrome" />
         <item itemvalue="JUnit.Pascals_Triangle2Test.testGetRow" />
+        <item itemvalue="JUnit.Longest_Palindromic_SubstringTest.testLongestPalindrome" />
+        <item itemvalue="JUnit.Fibonacci_NumberTest.testFib" />
       </list>
     </recent_temporary>
   </component>
@@ -514,7 +513,26 @@
           <line>13</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/khr/java/BruteForce/Remove_Duplicates_From_Sorted_Array.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/khr/java/BruteForce/Remove_Element.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/khr/java/BruteForce/Remove_Element.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
