@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/src/per/khr/java/BruteForce/Remove_Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Remove_ElementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/per/khr/java/Else/Convert_Sorted_Array_to_Binary_Search_TreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/BruteForce/Remove_Duplicates_From_Sorted_Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/BruteForce/Remove_Duplicates_From_Sorted_Array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/per/khr/java/Else/Remove_Duplicates_from_Sorted_List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/khr/java/Else/Remove_Duplicates_from_Sorted_List.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +20,8 @@
         <option value="FxmlFile" />
         <option value="JUnit4 Test Class" />
         <option value="JUnit3 Test Class" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -67,11 +66,11 @@
       <recent name="hash" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="per.khr.java.Else" />
       <recent name="" />
       <recent name="per.khr.java" />
       <recent name="per.khr.java.BruteForce" />
       <recent name="per.khr.java.DynamicProgramming" />
-      <recent name="src.test" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.Remove_ElementTest.removeElement">
@@ -315,7 +314,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/per/khr/java/Else/Remove_Duplicates_from_Sorted_List.java</url>
-          <line>11</line>
+          <line>25</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -525,7 +524,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/per/khr/java/BruteForce/Remove_Element.java</url>
-          <line>46</line>
+          <line>45</line>
           <option name="timeStamp" value="109" />
         </line-breakpoint>
       </breakpoints>

@@ -2,34 +2,26 @@ package per.khr.java.Else;
 
 import per.khr.java.vo.ListNode;
 
-import java.util.Iterator;
-import java.util.TreeSet;
-
 public class Remove_Duplicates_from_Sorted_List {
     public ListNode deleteDuplicates(ListNode head) {
-        TreeSet<Integer> ts = new TreeSet<>();
+        if (head == null)
+            return null;
 
-        while (head.next != null) {
-            ts.add(head.val);
+        ListNode prev = head;
+        ListNode now = head.next;
+        while (true) {
+            if (now == null)
+                break;
 
-            head = head.next;
-        }
-
-        Iterator i = ts.iterator();
-        ListNode resultNode = new ListNode();
-        while (i.hasNext()) {
-            int target = (int) i.next();
-            resultNode.val = target;
-
-            if (i.hasNext()) {
-                int nextTarget = (int) i.next();
-
-                if (target != nextTarget) {
-                    resultNode.next = new ListNode(nextTarget);
-                }
+            if (prev.val == now.val) {
+                prev.next = now.next;
+            } else {
+                prev = now;
             }
+
+            now = now.next;
         }
 
-        return null;
+        return head;
     }
 }
