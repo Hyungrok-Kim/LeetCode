@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/src/test/per/khr/java/Else/Convert_Sorted_Array_to_Binary_Search_TreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/khr/java/Else/Combination_Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/per/khr/java/Else/Combination_SumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/per/khr/java/Else/Remove_Duplicates_from_Sorted_List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/khr/java/Else/Remove_Duplicates_from_Sorted_List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/Else/Remove_Duplicates_from_Sorted_List.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/Else/Remove_Duplicates_from_Sorted_List.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +23,8 @@
         <option value="FxmlFile" />
         <option value="JUnit4 Test Class" />
         <option value="JUnit3 Test Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -73,12 +76,18 @@
       <recent name="per.khr.java.DynamicProgramming" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Remove_ElementTest.removeElement">
-    <configuration name="Fibonacci_NumberTest.testFib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Combination_SumTest.combinationSum">
+    <configuration name="Combination_SumTest.combinationSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Fibonacci_NumberTest" />
-      <option name="METHOD_NAME" value="testFib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="per.khr.java.Else.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="per.khr.java.Else" />
+      <option name="MAIN_CLASS_NAME" value="per.khr.java.Else.Combination_SumTest" />
+      <option name="METHOD_NAME" value="combinationSum" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,19 +140,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.Combination_SumTest.combinationSum" />
       <item itemvalue="JUnit.Remove_ElementTest.removeElement" />
-      <item itemvalue="JUnit.Fibonacci_NumberTest.testFib" />
       <item itemvalue="JUnit.Longest_Palindromic_SubstringTest.testLongestPalindrome" />
       <item itemvalue="JUnit.Pascals_Triangle2Test.testGetRow" />
       <item itemvalue="JUnit.Remove_Duplicates_From_Sorted_ArrayTest.removeDuplicates" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Combination_SumTest.combinationSum" />
         <item itemvalue="JUnit.Remove_ElementTest.removeElement" />
         <item itemvalue="JUnit.Remove_Duplicates_From_Sorted_ArrayTest.removeDuplicates" />
         <item itemvalue="JUnit.Pascals_Triangle2Test.testGetRow" />
         <item itemvalue="JUnit.Longest_Palindromic_SubstringTest.testLongestPalindrome" />
-        <item itemvalue="JUnit.Fibonacci_NumberTest.testFib" />
       </list>
     </recent_temporary>
   </component>
@@ -526,6 +535,26 @@
           <url>file://$PROJECT_DIR$/src/per/khr/java/BruteForce/Remove_Element.java</url>
           <line>45</line>
           <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/per/khr/java/Else/Combination_SumTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/khr/java/Else/Combination_Sum.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/khr/java/Else/Combination_Sum.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/khr/java/Else/Combination_Sum.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="114" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

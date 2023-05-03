@@ -9,3 +9,19 @@ w
 Gsrc/per/khr/java/BinarySearch/Find_Minimum_in_Rotated_Sorted_Array.java,a/b/ab20f485b4aa73a7064f84904dfb55cebc540590
 e
 5src/test/Remove_Duplicates_From_Sorted_ArrayTest.java,1/b/1b1a9bccafebf1a8e16fb51c34e1e12f198d7945
+y
+Isrc/per/khr/java/BinarySearch/Find_Minimum_in_Rotated_Sorted_Array_2.java,2/b/2b4723ab0b6a056f9627fce2cb9376cfdf43ddf2
+_
+/src/test/Longest_Palindromic_SubstringTest.java,b/8/b8f7cb79cbfd433ad605df01eb5749d992d5bf6f
+b
+2src/per/khr/java/Queue/Merge_Two_Sorted_Lists.java,7/f/7fb6db1fe4ac485fdf766afbe637240acce44bfb
+I
+src/test/Two_SumTest.java,c/5/c5fffcbefaeada2239f0bb77ea2e1bc1ee48ba0e
+P
+ src/test/Remove_ElementTest.java,d/6/d68ef5acfbc3cbaf6e3b35738c9565aa496d877d
+_
+/src/per/khr/java/BruteForce/Remove_Element.java,e/e/ee3d558e110f203a38f1d531b613151a4a1c19c0
+u
+Esrc/per/khr/java/Else/Convert_Sorted_Array_to_Binary_Search_Tree.java,b/e/bef708989a35845fe76e35ebe3aeea18d699ea1f
+~
+Nsrc/test/per/khr/java/Else/Convert_Sorted_Array_to_Binary_Search_TreeTest.java,1/2/12b41bca0baeb915bbd5cd467deeee0848e25be3
