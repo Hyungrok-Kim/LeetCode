@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/src/per/khr/java/Else/Combination_Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/per/khr/java/Else/Combination_SumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/khr/java/Else/Add_Two_Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/per/khr/java/Else/Add_Two_NumbersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/bef708989a35845fe76e35ebe3aeea18d699ea1f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/e/bef708989a35845fe76e35ebe3aeea18d699ea1f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/Else/Remove_Duplicates_from_Sorted_List.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/Else/Remove_Duplicates_from_Sorted_List.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/Else/Combination_Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/Else/Combination_Sum.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,23 @@
       <recent name="per.khr.java.DynamicProgramming" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Combination_SumTest.combinationSum">
+  <component name="RunManager" selected="JUnit.Add_Two_NumbersTest.addTwoNumbers">
+    <configuration name="Add_Two_NumbersTest.addTwoNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="per.khr.java.Else.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="per.khr.java.Else" />
+      <option name="MAIN_CLASS_NAME" value="per.khr.java.Else.Add_Two_NumbersTest" />
+      <option name="METHOD_NAME" value="addTwoNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Combination_SumTest.combinationSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -88,16 +106,6 @@
       <option name="PACKAGE_NAME" value="per.khr.java.Else" />
       <option name="MAIN_CLASS_NAME" value="per.khr.java.Else.Combination_SumTest" />
       <option name="METHOD_NAME" value="combinationSum" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Longest_Palindromic_SubstringTest.testLongestPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Longest_Palindromic_SubstringTest" />
-      <option name="METHOD_NAME" value="testLongestPalindrome" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,19 +148,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.Add_Two_NumbersTest.addTwoNumbers" />
       <item itemvalue="JUnit.Combination_SumTest.combinationSum" />
       <item itemvalue="JUnit.Remove_ElementTest.removeElement" />
-      <item itemvalue="JUnit.Longest_Palindromic_SubstringTest.testLongestPalindrome" />
       <item itemvalue="JUnit.Pascals_Triangle2Test.testGetRow" />
       <item itemvalue="JUnit.Remove_Duplicates_From_Sorted_ArrayTest.removeDuplicates" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Add_Two_NumbersTest.addTwoNumbers" />
         <item itemvalue="JUnit.Combination_SumTest.combinationSum" />
         <item itemvalue="JUnit.Remove_ElementTest.removeElement" />
         <item itemvalue="JUnit.Remove_Duplicates_From_Sorted_ArrayTest.removeDuplicates" />
         <item itemvalue="JUnit.Pascals_Triangle2Test.testGetRow" />
-        <item itemvalue="JUnit.Longest_Palindromic_SubstringTest.testLongestPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -548,13 +556,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/per/khr/java/Else/Combination_Sum.java</url>
-          <line>21</line>
+          <line>20</line>
           <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/per/khr/java/Else/Combination_Sum.java</url>
-          <line>17</line>
+          <line>16</line>
           <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/khr/java/Else/Add_Two_Numbers.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/per/khr/java/Else/Add_Two_NumbersTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="116" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
