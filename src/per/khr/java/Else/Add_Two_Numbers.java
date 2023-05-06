@@ -2,6 +2,7 @@ package per.khr.java.Else;
 
 import per.khr.java.vo.ListNode;
 
+import java.math.BigInteger;
 import java.util.LinkedList;
 import java.util.Objects;
 
@@ -19,10 +20,10 @@ public class Add_Two_Numbers {
                 l2 = l2.next;
             }
         }
-        Long L1Value = Long.parseLong(String.join("", L1));
-        Long L2Value = Long.parseLong(String.join("", L2));
-        Long resultVal = L1Value + L2Value;
-        String[] resultValByStrArr = Long.toString(resultVal).split("");
+        BigInteger L1Value = new BigInteger(String.join("", L1));
+        BigInteger L2Value = new BigInteger(String.join("", L2));
+        BigInteger resultVal = L1Value.add(L2Value);
+        String[] resultValByStrArr = resultVal.toString().split("");
 
         ListNode result = new ListNode();
         ListNode target = result;
