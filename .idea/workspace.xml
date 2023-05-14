@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/src/per/khr/java/Else/Reverse_Integer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/per/khr/java/Reverse_IntegerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f51d5686527a5f58620449ca21a9303c90bf98ee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/5/f51d5686527a5f58620449ca21a9303c90bf98ee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/per/khr/java/Else/Add_Two_Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/khr/java/Else/Add_Two_Numbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/Else/Add_Two_Numbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/Else/Add_Two_Numbers.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +32,31 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="kimhyungrok" />
+                    <option name="lastUsedInstant" value="1683352410" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1683352394" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/lib/assertj-core-3.21.0.jar!/org/assertj/core/internal/Objects.class" root0="SKIP_INSPECTION" />
@@ -65,14 +96,14 @@
       <recent name="hash" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="per.khr.java" />
       <recent name="per.khr.java.Else" />
       <recent name="" />
-      <recent name="per.khr.java" />
       <recent name="per.khr.java.BruteForce" />
       <recent name="per.khr.java.DynamicProgramming" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Add_Two_NumbersTest.addTwoNumbers">
+  <component name="RunManager" selected="JUnit.Reverse_IntegerTest.reverse">
     <configuration name="Add_Two_NumbersTest.addTwoNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -105,22 +136,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pascals_Triangle2Test.testGetRow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="per.khr.java.DynamicProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="per.khr.java.DynamicProgramming" />
-      <option name="MAIN_CLASS_NAME" value="per.khr.java.DynamicProgramming.Pascals_Triangle2Test" />
-      <option name="METHOD_NAME" value="testGetRow" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Remove_Duplicates_From_Sorted_ArrayTest.removeDuplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="PACKAGE_NAME" value="" />
@@ -141,20 +156,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Reverse_IntegerTest.reverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="per.khr.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="per.khr.java" />
+      <option name="MAIN_CLASS_NAME" value="per.khr.java.Reverse_IntegerTest" />
+      <option name="METHOD_NAME" value="reverse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="JUnit.Reverse_IntegerTest.reverse" />
       <item itemvalue="JUnit.Add_Two_NumbersTest.addTwoNumbers" />
       <item itemvalue="JUnit.Combination_SumTest.combinationSum" />
-      <item itemvalue="JUnit.Remove_ElementTest.removeElement" />
-      <item itemvalue="JUnit.Pascals_Triangle2Test.testGetRow" />
       <item itemvalue="JUnit.Remove_Duplicates_From_Sorted_ArrayTest.removeDuplicates" />
+      <item itemvalue="JUnit.Remove_ElementTest.removeElement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Reverse_IntegerTest.reverse" />
         <item itemvalue="JUnit.Add_Two_NumbersTest.addTwoNumbers" />
         <item itemvalue="JUnit.Combination_SumTest.combinationSum" />
         <item itemvalue="JUnit.Remove_ElementTest.removeElement" />
         <item itemvalue="JUnit.Remove_Duplicates_From_Sorted_ArrayTest.removeDuplicates" />
-        <item itemvalue="JUnit.Pascals_Triangle2Test.testGetRow" />
       </list>
     </recent_temporary>
   </component>
@@ -567,6 +598,11 @@
           <url>file://$PROJECT_DIR$/src/test/per/khr/java/Else/Add_Two_NumbersTest.java</url>
           <line>10</line>
           <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/khr/java/Else/Reverse_Integer.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="118" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
