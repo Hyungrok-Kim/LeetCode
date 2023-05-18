@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/src/per/khr/java/Else/Container_With_Most_Water.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/12b41bca0baeb915bbd5cd467deeee0848e25be3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/bef708989a35845fe76e35ebe3aeea18d699ea1f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/2/12b41bca0baeb915bbd5cd467deeee0848e25be3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/e/bef708989a35845fe76e35ebe3aeea18d699ea1f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/Else/Convert_Sorted_Array_to_Binary_Search_Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/Else/Convert_Sorted_Array_to_Binary_Search_Tree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/Else/Convert_Sorted_Array_to_Binary_Search_TreeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/LeetCode/per/khr/java/Else/Convert_Sorted_Array_to_Binary_Search_TreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/LeetCode/per/khr/java/Else/Convert_Sorted_Array_to_Binary_Search_TreeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/per/khr/java/Else/Convert_Sorted_Array_to_Binary_Search_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/khr/java/Else/Convert_Sorted_Array_to_Binary_Search_Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/per/khr/java/Else/Convert_Sorted_Array_to_Binary_Search_TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/per/khr/java/Else/Convert_Sorted_Array_to_Binary_Search_TreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +107,7 @@
       <recent name="per.khr.java.DynamicProgramming" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Container_With_Most_WaterTest.maxArea">
+  <component name="RunManager" selected="JUnit.Convert_Sorted_Array_to_Binary_Search_TreeTest.sortedArrayToBST">
     <configuration name="Add_Two_NumbersTest.addTwoNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -148,11 +156,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Remove_ElementTest.removeElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Convert_Sorted_Array_to_Binary_Search_TreeTest.sortedArrayToBST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Remove_ElementTest" />
-      <option name="METHOD_NAME" value="removeElement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="per.khr.java.Else.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="per.khr.java.Else" />
+      <option name="MAIN_CLASS_NAME" value="per.khr.java.Else.Convert_Sorted_Array_to_Binary_Search_TreeTest" />
+      <option name="METHOD_NAME" value="sortedArrayToBST" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,19 +189,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.Convert_Sorted_Array_to_Binary_Search_TreeTest.sortedArrayToBST" />
       <item itemvalue="JUnit.Container_With_Most_WaterTest.maxArea" />
       <item itemvalue="JUnit.Reverse_IntegerTest.reverse" />
       <item itemvalue="JUnit.Add_Two_NumbersTest.addTwoNumbers" />
       <item itemvalue="JUnit.Combination_SumTest.combinationSum" />
-      <item itemvalue="JUnit.Remove_ElementTest.removeElement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Convert_Sorted_Array_to_Binary_Search_TreeTest.sortedArrayToBST" />
         <item itemvalue="JUnit.Container_With_Most_WaterTest.maxArea" />
         <item itemvalue="JUnit.Reverse_IntegerTest.reverse" />
         <item itemvalue="JUnit.Add_Two_NumbersTest.addTwoNumbers" />
         <item itemvalue="JUnit.Combination_SumTest.combinationSum" />
-        <item itemvalue="JUnit.Remove_ElementTest.removeElement" />
       </list>
     </recent_temporary>
   </component>
