@@ -1,0 +1,8 @@
+
+2
+java:S1643"Use a StringBuilder instead.(ù©Ó…
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÂÑÌşÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ä´šı
+1
+java:S3626"Remove this redundant jump.(ÉŠ©ƒ
+V	java:S125"<This block of commented-out lines of code should be removed.(ÒÙÉØıÿÿÿÿ
