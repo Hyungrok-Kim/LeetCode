@@ -47,3 +47,7 @@ Z
 +src/per/khr/java/Else/Implement_strStr.java,0/5/05c5142477c68c3b8ff47b02dde1a4bf44cbf312
 ^
 .src/per/khr/java/Else/Length_of_Last_Word.java,2/9/290536e2997f38c1609fcd9edffa903df7ec268c
+`
+0src/per/khr/java/Else/Longest_Common_Prefix.java,8/c/8c791bc981e26e9b496d07a8b7b26b4c50e3042c
+g
+7src/per/khr/java/Else/Maximum_Depth_of_Binary_Tree.java,d/5/d5c513039d9f6fdffef95d2bfe119be7ff7c3713
