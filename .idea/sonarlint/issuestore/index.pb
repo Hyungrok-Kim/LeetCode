@@ -51,3 +51,7 @@ Z
 0src/per/khr/java/Else/Longest_Common_Prefix.java,8/c/8c791bc981e26e9b496d07a8b7b26b4c50e3042c
 g
 7src/per/khr/java/Else/Maximum_Depth_of_Binary_Tree.java,d/5/d5c513039d9f6fdffef95d2bfe119be7ff7c3713
+Z
+*src/per/khr/java/Else/Add_Two_Numbers.java,c/4/c4322b9219646fd5771d17dfde38516b7541c7e0
+^
+.src/per/khr/java/Else/Merge_Sorted_Arrray.java,c/1/c1a4f88ec402ece1a8e41837b4b42d12407831d5
