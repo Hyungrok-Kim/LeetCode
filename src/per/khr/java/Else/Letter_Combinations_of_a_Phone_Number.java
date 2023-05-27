@@ -20,7 +20,7 @@ public class Letter_Combinations_of_a_Phone_Number {
     private final List<String> result = new ArrayList<>();
 
     public List<String> letterCombinations(String digits) {
-        if (digits.equals("")) {
+        if (digits.isBlank()) {
             return new ArrayList<>();
         }
         char[] numberCharacters = digits.toCharArray();
