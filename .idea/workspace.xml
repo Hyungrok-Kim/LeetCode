@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/src/per/khr/java/BFSDFS/Generate_Parentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/per/khr/java/BFSDFS/Generate_ParenthesesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/khr/java/BruteForce/Single_Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/per/khr/java/BruteForce/Single_NumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/020846bf3c878a27469dc4fe921820884b95b299" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/2/020846bf3c878a27469dc4fe921820884b95b299" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/Else/Letter_Combinations_of_a_Phone_Number.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/per/khr/java/Else/Letter_Combinations_of_a_Phone_Number.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/per/khr/java/Else/Letter_Combinations_of_a_Phone_Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/per/khr/java/Else/Letter_Combinations_of_a_Phone_Number.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,23 +69,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "/Users/kimhyungrok/Desktop/dev/WorkingDirectory/pr/LeetCode",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kimhyungrok/Desktop/dev/WorkingDirectory/pr/LeetCode&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -96,14 +96,14 @@
       <recent name="hash" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="per.khr.java.BruteForce" />
+      <recent name="per.khr.java.BFSDFS" />
       <recent name="per.khr.java.Else" />
       <recent name="per.khr.java" />
       <recent name="" />
-      <recent name="per.khr.java.BruteForce" />
-      <recent name="per.khr.java.DynamicProgramming" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Generate_ParenthesesTest.generateParenthesis">
+  <component name="RunManager" selected="JUnit.Single_NumberTest.singleNumber">
     <configuration name="Container_With_Most_WaterTest.maxArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -168,36 +168,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reverse_IntegerTest.reverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Single_NumberTest.singleNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="per.khr.java.*" />
+          <option name="PATTERN" value="per.khr.java.BruteForce.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="per.khr.java" />
-      <option name="MAIN_CLASS_NAME" value="per.khr.java.Reverse_IntegerTest" />
-      <option name="METHOD_NAME" value="reverse" />
+      <option name="PACKAGE_NAME" value="per.khr.java.BruteForce" />
+      <option name="MAIN_CLASS_NAME" value="per.khr.java.BruteForce.Single_NumberTest" />
+      <option name="METHOD_NAME" value="singleNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.Single_NumberTest.singleNumber" />
       <item itemvalue="JUnit.Generate_ParenthesesTest.generateParenthesis" />
       <item itemvalue="JUnit.Letter_Combinations_of_a_Phone_NumberTest.letterCombinations" />
       <item itemvalue="JUnit.Convert_Sorted_Array_to_Binary_Search_TreeTest.sortedArrayToBST" />
       <item itemvalue="JUnit.Container_With_Most_WaterTest.maxArea" />
-      <item itemvalue="JUnit.Reverse_IntegerTest.reverse" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Single_NumberTest.singleNumber" />
         <item itemvalue="JUnit.Generate_ParenthesesTest.generateParenthesis" />
         <item itemvalue="JUnit.Letter_Combinations_of_a_Phone_NumberTest.letterCombinations" />
         <item itemvalue="JUnit.Convert_Sorted_Array_to_Binary_Search_TreeTest.sortedArrayToBST" />
         <item itemvalue="JUnit.Container_With_Most_WaterTest.maxArea" />
-        <item itemvalue="JUnit.Reverse_IntegerTest.reverse" />
       </list>
     </recent_temporary>
   </component>
@@ -635,6 +635,11 @@
           <url>file://$PROJECT_DIR$/src/test/per/khr/java/BFSDFS/Generate_ParenthesesTest.java</url>
           <line>12</line>
           <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/per/khr/java/BruteForce/Single_NumberTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="124" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
