@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5417075e-67e4-4335-9358-8d482125e7a9" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/src/per/khr/java/BruteForce/Majority_Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/per/khr/java/Else/Excel_Sheet_Column_Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/per/khr/java/Else/Excel_Sheet_Column_NumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +20,8 @@
         <option value="FxmlFile" />
         <option value="JUnit4 Test Class" />
         <option value="JUnit3 Test Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -91,30 +92,14 @@
       <recent name="hash" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="per.khr.java.Else" />
       <recent name="per.khr.java.BruteForce" />
       <recent name="per.khr.java.BFSDFS" />
-      <recent name="per.khr.java.Else" />
       <recent name="per.khr.java" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Single_NumberTest.singleNumber">
-    <configuration name="Container_With_Most_WaterTest.maxArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="per.khr.java.Else.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="per.khr.java.Else" />
-      <option name="MAIN_CLASS_NAME" value="per.khr.java.Else.Container_With_Most_WaterTest" />
-      <option name="METHOD_NAME" value="maxArea" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Excel_Sheet_Column_NumberTest.titleToNumber">
     <configuration name="Convert_Sorted_Array_to_Binary_Search_TreeTest.sortedArrayToBST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -126,6 +111,22 @@
       <option name="PACKAGE_NAME" value="per.khr.java.Else" />
       <option name="MAIN_CLASS_NAME" value="per.khr.java.Else.Convert_Sorted_Array_to_Binary_Search_TreeTest" />
       <option name="METHOD_NAME" value="sortedArrayToBST" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Excel_Sheet_Column_NumberTest.titleToNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="per.khr.java.Else.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="per.khr.java.Else" />
+      <option name="MAIN_CLASS_NAME" value="per.khr.java.Else.Excel_Sheet_Column_NumberTest" />
+      <option name="METHOD_NAME" value="titleToNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -180,19 +181,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Single_NumberTest.singleNumber" />
+      <item itemvalue="JUnit.Excel_Sheet_Column_NumberTest.titleToNumber" />
+      <item itemvalue="JUnit.Convert_Sorted_Array_to_Binary_Search_TreeTest.sortedArrayToBST" />
       <item itemvalue="JUnit.Generate_ParenthesesTest.generateParenthesis" />
       <item itemvalue="JUnit.Letter_Combinations_of_a_Phone_NumberTest.letterCombinations" />
-      <item itemvalue="JUnit.Convert_Sorted_Array_to_Binary_Search_TreeTest.sortedArrayToBST" />
-      <item itemvalue="JUnit.Container_With_Most_WaterTest.maxArea" />
+      <item itemvalue="JUnit.Single_NumberTest.singleNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Excel_Sheet_Column_NumberTest.titleToNumber" />
         <item itemvalue="JUnit.Single_NumberTest.singleNumber" />
         <item itemvalue="JUnit.Generate_ParenthesesTest.generateParenthesis" />
         <item itemvalue="JUnit.Letter_Combinations_of_a_Phone_NumberTest.letterCombinations" />
         <item itemvalue="JUnit.Convert_Sorted_Array_to_Binary_Search_TreeTest.sortedArrayToBST" />
-        <item itemvalue="JUnit.Container_With_Most_WaterTest.maxArea" />
       </list>
     </recent_temporary>
   </component>
@@ -635,6 +636,16 @@
           <url>file://$PROJECT_DIR$/src/test/per/khr/java/BruteForce/Single_NumberTest.java</url>
           <line>13</line>
           <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/per/khr/java/Else/Excel_Sheet_Column_Number.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/per/khr/java/Else/Excel_Sheet_Column_NumberTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="127" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
